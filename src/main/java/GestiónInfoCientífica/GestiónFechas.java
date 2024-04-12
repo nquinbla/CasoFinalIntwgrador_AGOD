@@ -15,9 +15,13 @@ public class GestiónFechas {
         this.fechas.add(new Fecha(dia, mes, año));
     }
 
-    public List<Fecha> listarFechas() { // Método
+    public List<String> listarFechas() {
         Collections.sort(this.fechas);
-        return this.fechas;
+        List<String> fechasComoCadenas = new ArrayList<>();
+        for (Fecha fecha : this.fechas) {
+            fechasComoCadenas.add(fecha.toString());
+        }
+        return fechasComoCadenas;
     }
 
     private class Fecha implements Comparable<Fecha> { // Clase interna
