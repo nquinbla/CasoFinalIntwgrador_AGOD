@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="calculo y potencias de máximos código 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HerramientasAnálisisNúm/CálculoPotenciasYMáx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HerramientasAnálisisNúm/CálculoPotenciasYMáx.java" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="ajustes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HerramientasAnálisisNúm/Main_HAM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <updated>1712676497093</updated>
       <workItem from="1712676498543" duration="656000" />
       <workItem from="1712679685446" duration="1274000" />
-      <workItem from="1712916279023" duration="4263000" />
+      <workItem from="1712916279023" duration="4542000" />
     </task>
     <task id="LOCAL-00001" summary="Módulo Análisis Genómico">
       <option name="closed" value="true" />
@@ -186,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712920936580</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="calculo y potencias de máximos código 2">
+      <option name="closed" value="true" />
+      <created>1712922815870</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712922815870</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ajustes">
+      <option name="closed" value="true" />
+      <created>1712922941768</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712922941768</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +220,8 @@
     <MESSAGE value="tengo 9 errores de no se de donde 2" />
     <MESSAGE value="arreglos sumatoria y listado de numeros" />
     <MESSAGE value="calculo y potencias de máximos código 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculo y potencias de máximos código 1" />
+    <MESSAGE value="calculo y potencias de máximos código 2" />
+    <MESSAGE value="ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustes" />
   </component>
 </project>
