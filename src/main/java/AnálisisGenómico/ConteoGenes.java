@@ -15,6 +15,15 @@ public class ConteoGenes {
             }
         } return contarGenesHelper(dna, index + 1, count);
      }
-     private static int
+     private static int findStopCodon(String dna, int startIndex) {
+        int currIndex = dna.indexOf("TAA", startIndex + 3);
+        while (currIndex != -1) {
+            if ((currIndex - startIndex) % 3 == 0) {
+                return currIndex;
+            } else {
+                currIndex = dna.indexOf("TAA", currIndex + 1);
+            }
+        } return -1;
+     }
 
 }
