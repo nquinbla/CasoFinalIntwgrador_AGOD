@@ -14,9 +14,9 @@ public class SumatoriaYListadoNum {
 
     // Método para listar los números desde el inicio hasta el final
     public static void listarNumeros(int inicio, int end) {
-        if (inicio > final) { // Si el inicio es mayor al final, lanza una excepción
+        if (inicio > end) { // Si el inicio es mayor al final, lanza una excepción
             throw new IllegalArgumentException("El inicio debe ser menor o igual al final.");
-        } if (inicio <=final) { // Caso base: si el inicio es menor o igual al final, imprime el inicio y llama al método con inicio + 1
+        } if (inicio <= end) { // Caso base: si el inicio es menor o igual al final, imprime el inicio y llama al método con inicio + 1
             System.out.println(inicio);
             listarNumeros(inicio + 1, end);
         }
