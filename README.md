@@ -1,6 +1,6 @@
 # Caso Final Integrador: Sistema Interactivo de Análisis Genómico y Organización de Datos
 Caso Final Integrador: Sistema Interactivo de Análisis Genómico y Organización de Datos de Nerea Quintanilla Blanco, los respectivos ejercicios se sitúan tras su explicación en corchetes.
-LINK: """"""
+LINK: (https://github.com/nquinbla/CasoFinalIntwgrador_AGOD.git)
 
 ## DESCRIPCIÓN
 El proyecto consistirá en el desarrollo de un sistema de software que integre funciones recursivas y algoritmos de ordenación para el análisis de secuencias de ADN, la manipulación de datos y la organización de información científica. Los estudiantes aplicarán conceptos de recursividad, búsqueda y ordenamiento para crear una herramienta útil en el campo de la biología computacional.
