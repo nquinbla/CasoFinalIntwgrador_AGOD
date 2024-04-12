@@ -1,29 +1,50 @@
 package AnálisisGenómico;
 
+// Clase pública para contar genes en una cadena de ADN
 public class ConteoGenes {
-    public static int contarGenes(String genes) {
-        return contarGenesHelper("dna", 0,0);
+    // Método público para contar genes en una cadena de ADN
+    public static int contarGenes(String cadenaADN) {
+        // Verificación de entrada válida
+        if (!cadenaADN.matches("[ATGC]*")) {
+            throw new IllegalArgumentException("La cadena de ADN contiene caracteres inválidos.");
+        }
+        // parámetros iniciales
+        return contarGenesRecursivamente(cadenaADN, 0,0);
     }
-    private static int contarGenesHelper(String dna, int index, int count) {
-        if (index >= dna.length() -2 ) {
+
+    // Método auxiliar recursivo para contar genes
+    private static int contarGenesRecursivamente(String cadenaADN, int index, int count) {
+        if (index >= cadenaADN.length() -2 ) {
             return count;
-        } if (dna.startsWith("ATG", index)) {
-            int endIndex = findStopCodon(dna, index + 3);
+        }
+        // Si la cadena de ADN comienza con "ATG" en el índice actual
+        if (cadenaADN.startsWith("ATG", index)) {
+            // Busca el índice del codón de parada "TAA"
+            int endIndex = findStopCodon(cadenaADN, index + 3);
             if (endIndex != -1) {
+                // Incrementa el recuento y llama recursivamente al método auxiliar con el nuevo índice y recuento.
                 count++;
-                return contarGenesHelper(dna, endIndex + 3, count);
+                return contarGenesRecursivamente(cadenaADN, endIndex + 3, count);
             }
-        } return contarGenesHelper(dna, index + 1, count);
-     }
-     private static int findStopCodon(String dna, int startIndex) {
-        int currIndex = dna.indexOf("TAA", startIndex + 3);
+        }
+        // Si no se encuentra llama recursivamente al método auxiliar.
+        return contarGenesRecursivamente(cadenaADN, index + 1, count);
+    }
+
+    // Método para encontrar el índice del codón de parada "TAA" después del índice de inicio
+    private static int findStopCodon(String cadenaADN, int startIndex) {
+        // Busca el índice del codón de parada "TAA" después del índice de inicio
+        int currIndex = cadenaADN.indexOf("TAA", startIndex);
+        // Mientras se encuentre un codón de parada "TAA"
         while (currIndex != -1) {
-            if ((currIndex - startIndex) % 3 == 0) {
+            if ((currIndex - startIndex) % 3 == 0) { // Si la longitud del gen es un múltiplo de 3 devuelve el índice actual
                 return currIndex;
             } else {
-                currIndex = dna.indexOf("TAA", currIndex + 1);
+                // Si no, busca el siguiente codón de parada "TAA"
+                currIndex = cadenaADN.indexOf("TAA", currIndex + 3);
             }
-        } return -1;
-     }
-
+        }
+        // Si no se encuentra un codón de parada "TAA", devuelve -1
+        return -1;
+    }
 }
