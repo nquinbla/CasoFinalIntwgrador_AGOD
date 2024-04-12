@@ -13,4 +13,14 @@ public class CálculoPotenciasYMáx {
         }
     }
 
+    // Método para encontrar el máximo de un arreglo
+    public static int encontrarMáx (int[] arr, int n) {
+        if (n <= 0) {
+            throw new IllegalArgumentException("El tamaño del arreglo debe ser positivo.");
+        } else if (n == 1) { // Caso base: si el tamaño del arreglo es 1, devuelve el único elemento
+            return arr[0];
+        } else { // Caso recursivo: devuelve el máximo entre el primer elemento y el máximo del resto del arreglo
+            return Math.max(arr[n - 1], encontrarMáx(arr, n - 1));
+        }
+    }
 }
