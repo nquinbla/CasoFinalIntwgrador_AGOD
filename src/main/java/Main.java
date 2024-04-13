@@ -1,3 +1,8 @@
+import AnálisisGenómico.*;
+import GestiónInfoCientífica.*;
+import HerramientasAnálisisNúm.*;
+import OptimizaciónProcesos.*;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

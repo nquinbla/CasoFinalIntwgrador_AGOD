@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="main módulo 4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="main general 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +80,7 @@
       <workItem from="1712676498543" duration="656000" />
       <workItem from="1712679685446" duration="1274000" />
       <workItem from="1712916279023" duration="6278000" />
-      <workItem from="1713009394721" duration="1989000" />
+      <workItem from="1713009394721" duration="2321000" />
     </task>
     <task id="LOCAL-00001" summary="Módulo Análisis Genómico">
       <option name="closed" value="true" />
@@ -333,15 +330,37 @@
       <option name="project" value="LOCAL" />
       <updated>1713009820099</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="main general 1">
+      <option name="closed" value="true" />
+      <created>1713011631271</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1713011631271</updated>
+    </task>
+    <task id="LOCAL-00033" summary="main general 2">
+      <option name="closed" value="true" />
+      <created>1713011699660</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1713011699660</updated>
+    </task>
+    <task id="LOCAL-00034" summary="main general 2">
+      <option name="closed" value="true" />
+      <created>1713011757771</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1713011757771</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="conteo genes 1" />
-    <MESSAGE value="conteo genes comentarios y mejora" />
     <MESSAGE value="CálculoCombGen 1" />
     <MESSAGE value="CálculoCombGen comentarios" />
     <MESSAGE value="prueba main" />
@@ -365,6 +384,8 @@
     <MESSAGE value="main módulo 3" />
     <MESSAGE value="meo¡jora algoritmos" />
     <MESSAGE value="main módulo 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="main módulo 4" />
+    <MESSAGE value="main general 1" />
+    <MESSAGE value="main general 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="main general 2" />
   </component>
 </project>
