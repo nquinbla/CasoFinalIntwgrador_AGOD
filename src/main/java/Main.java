@@ -329,24 +329,31 @@ public class Main extends JFrame {
             }
         });
 
-// botones del panel
-        panel.add(Box.createVerticalGlue());
-        panel.add(button1);
-        panel.add(Box.createRigidArea(new Dimension(0, 10)));
-        panel.add(button2);
-        panel.add(Box.createRigidArea(new Dimension(0, 10)));
-        panel.add(button3);
-        panel.add(Box.createRigidArea(new Dimension(0, 10)));
-        panel.add(button4);
-        panel.add(Box.createRigidArea(new Dimension(0, 10)));
-        panel.add(button5);
-        panel.add(Box.createRigidArea(new Dimension(0, 10)));
-        panel.add(button6);
-        panel.add(Box.createRigidArea(new Dimension(0, 10)));
-        panel.add(button7);
-        panel.add(Box.createRigidArea(new Dimension(0, 10)));
-        panel.add(button8);
-        panel.add(Box.createVerticalGlue());
+        // Crear un nuevo panel para los botones
+        JPanel buttonPanel = new JPanel();
+        buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.Y_AXIS));
+        buttonPanel.setOpaque(false); // Hacer que buttonPanel sea transparente
+
+        // Agregar los botones al panel de botones
+        buttonPanel.add(Box.createVerticalGlue());
+        buttonPanel.add(button1);
+        buttonPanel.add(Box.createRigidArea(new Dimension(0, 10)));
+        buttonPanel.add(button2);
+        buttonPanel.add(Box.createRigidArea(new Dimension(0, 10)));
+        buttonPanel.add(button3);
+        buttonPanel.add(Box.createRigidArea(new Dimension(0, 10)));
+        buttonPanel.add(button4);
+        buttonPanel.add(Box.createRigidArea(new Dimension(0, 10)));
+        buttonPanel.add(button5);
+        buttonPanel.add(Box.createRigidArea(new Dimension(0, 10)));
+        buttonPanel.add(button6);
+        buttonPanel.add(Box.createRigidArea(new Dimension(0, 10)));
+        buttonPanel.add(button7);
+        buttonPanel.add(Box.createRigidArea(new Dimension(0, 10)));
+        buttonPanel.add(button8);
+        buttonPanel.add(Box.createVerticalGlue());
+
+
 
         // Hacer visible el marco
         this.setVisible(true);
