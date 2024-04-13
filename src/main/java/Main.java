@@ -26,17 +26,18 @@ public class Main extends JFrame {
         add(panel);
 
         // Título Principal "A.G.O.D."
-        JLabel tituloPrincipal = new JLabel("<html><font color='grey'>A</font><font color='grey'>G</font><font color='blue'>O</font><font color='grey'>D</font></html>");
+        JLabel tituloPrincipal = new JLabel("<html><font color='grey'>A.</font><font color='grey'>G.</font><font color='blue'>O.</font><font color='grey'>D.</font></html>");
         tituloPrincipal.setFont(new Font("Ardela Edge ARDELA EDGE X03 Extra Bold", Font.BOLD, 142));
         GridBagConstraints gbcTitulo = new GridBagConstraints();
-        gbcTitulo.gridx = 0;
+        gbcTitulo.gridx = 0; // Colocar el título en la primera columna
         gbcTitulo.gridy = 0;
+        gbcTitulo.weightx = 0.5; // Dar más espacio a la columna del título
         gbcTitulo.weighty = 1;
-        gbcTitulo.anchor = GridBagConstraints.PAGE_END;
+        gbcTitulo.anchor = GridBagConstraints.CENTER;
         panel.add(tituloPrincipal, gbcTitulo);
 
         // Subtítulos "Análisis Genómico" y "Organización de Datos"
-        JLabel subtitulo1 = new JLabel("Análisis Genómico");
+        JLabel subtitulo1 = new JLabel("Análisis Genómico & Organización de Datos");
         subtitulo1.setFont(new Font("Touch Me Sans Petite Semi Bold", Font.ITALIC, 24));
         subtitulo1.setForeground(Color.BLACK);
         GridBagConstraints gbcSubtitulo1 = new GridBagConstraints();
@@ -46,7 +47,7 @@ public class Main extends JFrame {
         gbcSubtitulo1.anchor = GridBagConstraints.PAGE_START;
         panel.add(subtitulo1, gbcSubtitulo1);
 
-        JLabel subtitulo2 = new JLabel("Organización de Datos");
+        JLabel subtitulo2 = new JLabel("Universidad Alfonso X el Sabio (UAX)");
         subtitulo2.setFont(new Font("Touch Me Sans Petite Semi Bold", Font.BOLD, 24));
         subtitulo2.setForeground(Color.BLUE);
         GridBagConstraints gbcSubtitulo2 = new GridBagConstraints();
@@ -343,6 +344,15 @@ public class Main extends JFrame {
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.Y_AXIS));
         buttonPanel.setOpaque(false); // Hacer que buttonPanel sea transparente
+
+        // Agregar el panel de botones al panel principal
+        GridBagConstraints gbcButtonPanel = new GridBagConstraints();
+        gbcButtonPanel.gridx = 1; // Colocar el panel de botones en la segunda columna
+        gbcButtonPanel.gridy = 0;
+        gbcButtonPanel.weightx = 0.5; // Dar más espacio a la columna de los botones
+        gbcButtonPanel.weighty = 1;
+        gbcButtonPanel.anchor = GridBagConstraints.CENTER;
+        panel.add(buttonPanel, gbcButtonPanel);
 
         // Agregar los botones al panel de botones
         buttonPanel.add(Box.createVerticalGlue());

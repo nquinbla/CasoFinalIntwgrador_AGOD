@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="main general 12 (llorando me encuentro)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="main general 14 (llorando me encuentro)">
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +83,7 @@
       <workItem from="1712676498543" duration="656000" />
       <workItem from="1712679685446" duration="1274000" />
       <workItem from="1712916279023" duration="6278000" />
-      <workItem from="1713009394721" duration="7409000" />
+      <workItem from="1713009394721" duration="8018000" />
     </task>
     <task id="LOCAL-00001" summary="Módulo Análisis Genómico">
       <option name="closed" value="true" />
@@ -438,15 +437,29 @@
       <option name="project" value="LOCAL" />
       <updated>1713015131325</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="main general 12 (llorando me encuentro)">
+      <option name="closed" value="true" />
+      <created>1713017611520</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1713017611520</updated>
+    </task>
+    <task id="LOCAL-00046" summary="main general 14 (llorando me encuentro)">
+      <option name="closed" value="true" />
+      <created>1713017831200</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1713017831200</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="calculo y potencias de máximos código 2" />
-    <MESSAGE value="ajustes" />
     <MESSAGE value="main módulo 2" />
     <MESSAGE value="módulo 3 y sus respectivas clases" />
     <MESSAGE value="organización de documnetos código" />
@@ -470,7 +483,9 @@
     <MESSAGE value="main general 10 (porque los botones no se colocan donde yo quiero)" />
     <MESSAGE value="main general 11 (no se que stoy haciendo)" />
     <MESSAGE value="main general 12 (llorando me encuentro)" />
-    <option name="LAST_COMMIT_MESSAGE" value="main general 12 (llorando me encuentro)" />
+    <MESSAGE value="main general 13 (llorando me encuentro)" />
+    <MESSAGE value="main general 14 (llorando me encuentro)" />
+    <option name="LAST_COMMIT_MESSAGE" value="main general 14 (llorando me encuentro)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
