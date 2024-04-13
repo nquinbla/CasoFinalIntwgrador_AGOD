@@ -18,10 +18,10 @@ public class Main extends JFrame {
 
         // Crear un panel para agregar componentes
         JPanel panel = new DecoPanel();
-        panelPrincipal.setLayout(new GridBagLayout()); // Usar GridBagLayout
-        panelPrincipal.setBackground(new Color(255, 255, 255, 200)); // Blanco semi-transparente
-        panelPrincipal.setOpaque(false); // Hacer que panelPrincipal sea transparente
-        add(panelPrincipal);
+        panel.setLayout(new GridBagLayout()); // Usar GridBagLayout
+        panel.setBackground(new Color(255, 255, 255, 200)); // Blanco semi-transparente
+        panel.setOpaque(false); // Hacer que panelPrincipal sea transparente
+        add(panel);
 
         // Título Principal "A.G.O.D."
         JLabel tituloPrincipal = new JLabel("<html><font color='grey'>A</font><font color='grey'>G</font><font color='blue'>O</font><font color='grey'>D</font></html>");
@@ -31,7 +31,7 @@ public class Main extends JFrame {
         gbcTitulo.gridy = 0;
         gbcTitulo.weighty = 1;
         gbcTitulo.anchor = GridBagConstraints.PAGE_END;
-        panelPrincipal.add(tituloPrincipal, gbcTitulo);
+        panel.add(tituloPrincipal, gbcTitulo);
 
         // Subtítulos "Análisis Genómico" y "Organización de Datos"
         JLabel subtitulo1 = new JLabel("Análisis Genómico");
@@ -42,7 +42,7 @@ public class Main extends JFrame {
         gbcSubtitulo1.gridy = 1;
         gbcSubtitulo1.weighty = 0;
         gbcSubtitulo1.anchor = GridBagConstraints.PAGE_START;
-        panelPrincipal.add(subtitulo1, gbcSubtitulo1);
+        panel.add(subtitulo1, gbcSubtitulo1);
 
         JLabel subtitulo2 = new JLabel("Organización de Datos");
         subtitulo2.setFont(new Font("Touch Me Sans Petite Semi Bold", Font.BOLD, 24));
@@ -52,7 +52,7 @@ public class Main extends JFrame {
         gbcSubtitulo2.gridy = 2;
         gbcSubtitulo2.weighty = 1;
         gbcSubtitulo2.anchor = GridBagConstraints.PAGE_START;
-        panelPrincipal.add(subtitulo2, gbcSubtitulo2);
+        panel.add(subtitulo2, gbcSubtitulo2);
 
         // botones del panel para interactuar con las clases
         JButton button1 = new JButton("Gestión de Fechas");
@@ -350,7 +350,7 @@ public class Main extends JFrame {
         panel.add(Box.createRigidArea(new Dimension(10, 0))); // Agregar espacio a la derecha de los botones
 
         // Hacer visible el marco
-        frame.setVisible(true);
+        this.setVisible(true);
     }
     public static void main(String[] args) {
         Main main = new Main();
