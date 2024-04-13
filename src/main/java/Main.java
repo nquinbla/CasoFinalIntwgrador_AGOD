@@ -28,7 +28,7 @@ public class Main {
         JButton button8 = new JButton("Sumatoria y Listado de Números");
 
         // manejar eventos de los botones
-        button1.addActionListener(new ActionListener() {
+        button1.addActionListener(new ActionListener() { // Gestión de Fechas
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Crear un nuevo marco (ventana)
@@ -61,7 +61,7 @@ public class Main {
             }
         });
 
-        button2.addActionListener(new ActionListener() {
+        button2.addActionListener(new ActionListener() { // Búsqueda Eficiente en Textos
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Crear un nuevo marco (ventana)
@@ -94,7 +94,7 @@ public class Main {
             }
         });
 
-        button3.addActionListener(new ActionListener() {
+        button3.addActionListener(new ActionListener() { // Organización de Documentos
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Crear un nuevo marco (ventana)
@@ -127,7 +127,7 @@ public class Main {
             }
         });
 
-        button4.addActionListener(new ActionListener() {
+        button4.addActionListener(new ActionListener() { // Conteo de Genes
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Crear un nuevo marco (ventana)
@@ -160,9 +160,137 @@ public class Main {
             }
         });
 
+        button5.addActionListener(new ActionListener() { // Cálculo de Combinaciones Genéticas
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Crear un nuevo marco (ventana)
+                JFrame frame = new JFrame("Cálculo de Combinaciones Genéticas");
+                frame.setSize(500, 400);
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                frame.setLayout(new BorderLayout());
 
+                // Crear un panel para agregar componentes
+                JPanel panel = new JPanel();
+                panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+                frame.add(panel, BorderLayout.EAST);
 
-        // Repetir para los demás botones...
+                // Crear un nuevo botón
+                JButton button = new JButton("Regresar");
+
+                // Manejar eventos del botón
+                button.addActionListener(new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                        frame.dispose();
+                    }
+                });
+
+                // Agregar el botón al panel
+                panel.add(button);
+
+                // Hacer visible el marco
+                frame.setVisible(true);
+            }
+        });
+
+        button6.addActionListener(new ActionListener() { // Mejora de Algoritmos
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Crear un nuevo marco (ventana)
+                JFrame frame = new JFrame("Mejora de Algoritmos");
+                frame.setSize(500, 400);
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                frame.setLayout(new BorderLayout());
+
+                // Crear un panel para agregar componentes
+                JPanel panel = new JPanel();
+                panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+                frame.add(panel, BorderLayout.EAST);
+
+                // Crear un nuevo botón
+                JButton button = new JButton("Regresar");
+
+                // Manejar eventos del botón
+                button.addActionListener(new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                        frame.dispose();
+                    }
+                });
+
+                // Agregar el botón al panel
+                panel.add(button);
+
+                // Hacer visible el marco
+                frame.setVisible(true);
+            }
+        });
+
+        button7.addActionListener(new ActionListener() { // Cálculo de Potencias y Máximos
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Crear un nuevo marco (ventana)
+                JFrame frame = new JFrame("Cálculo de Potencias y Máximos");
+                frame.setSize(500, 400);
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                frame.setLayout(new BorderLayout());
+
+                // Crear un panel para agregar componentes
+                JPanel panel = new JPanel();
+                panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+                frame.add(panel, BorderLayout.EAST);
+
+                // Crear un nuevo botón
+                JButton button = new JButton("Regresar");
+
+                // Manejar eventos del botón
+                button.addActionListener(new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                        frame.dispose();
+                    }
+                });
+
+                // Agregar el botón al panel
+                panel.add(button);
+
+                // Hacer visible el marco
+                frame.setVisible(true);
+            }
+        });
+
+        button8.addActionListener(new ActionListener() { // Sumatoria y Listado de Números
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Crear un nuevo marco (ventana)
+                JFrame frame = new JFrame("Sumatoria y Listado de Números");
+                frame.setSize(500, 400);
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                frame.setLayout(new BorderLayout());
+
+                // Crear un panel para agregar componentes
+                JPanel panel = new JPanel();
+                panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+                frame.add(panel, BorderLayout.EAST);
+
+                // Crear un nuevo botón
+                JButton button = new JButton("Regresar");
+
+                // Manejar eventos del botón
+                button.addActionListener(new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                        frame.dispose();
+                    }
+                });
+
+                // Agregar el botón al panel
+                panel.add(button);
+
+                // Hacer visible el marco
+                frame.setVisible(true);
+            }
+        });
 
         // botones del panel
         panel.add(Box.createVerticalGlue());
