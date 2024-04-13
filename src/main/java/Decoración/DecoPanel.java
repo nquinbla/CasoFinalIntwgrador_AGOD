@@ -1,4 +1,4 @@
-
+package Decoración;
 
 import javax.swing.*;
 import java.awt.*;

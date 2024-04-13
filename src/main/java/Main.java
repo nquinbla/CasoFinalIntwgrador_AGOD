@@ -1,7 +1,4 @@
-import AnálisisGenómico.*;
-import GestiónInfoCientífica.*;
-import HerramientasAnálisisNúm.*;
-import OptimizaciónProcesos.*;
+import Decoración.DecoPanel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -19,16 +16,22 @@ public class Main extends JFrame {
         setSize(800, 600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-        // Crear un nuevo marco (ventana)
-        JFrame frame = new JFrame("Main GUI");
-        frame.setSize(500, 400);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLayout(new BorderLayout());
-
         // Crear un panel para agregar componentes
-        JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        frame.add(panel, BorderLayout.EAST);
+        JPanel panel = new DecoPanel();
+        panelPrincipal.setLayout(new GridBagLayout()); // Usar GridBagLayout
+        panelPrincipal.setBackground(new Color(255, 255, 255, 200)); // Blanco semi-transparente
+        panelPrincipal.setOpaque(false); // Hacer que panelPrincipal sea transparente
+        add(panelPrincipal);
+
+        // Título Principal "A.G.O.D."
+        JLabel tituloPrincipal = new JLabel("<html><font color='grey'>A</font><font color='grey'>G</font><font color='blue'>O</font><font color='grey'>D</font></html>");
+        tituloPrincipal.setFont(new Font("Ardela Edge ARDELA EDGE X03 Extra Bold", Font.BOLD, 142));
+        GridBagConstraints gbcTitulo = new GridBagConstraints();
+        gbcTitulo.gridx = 0;
+        gbcTitulo.gridy = 0;
+        gbcTitulo.weighty = 1;
+        gbcTitulo.anchor = GridBagConstraints.PAGE_END;
+        panelPrincipal.add(tituloPrincipal, gbcTitulo);
 
         // botones del panel para interactuar con las clases
         JButton button1 = new JButton("Gestión de Fechas");
@@ -327,5 +330,9 @@ public class Main extends JFrame {
 
         // Hacer visible el marco
         frame.setVisible(true);
+    }
+    public static void main(String[] args) {
+        Main main = new Main();
+        main.setVisible(true);
     }
 }
