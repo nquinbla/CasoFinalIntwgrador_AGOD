@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ComponentAdapter;
+import java.awt.event.ComponentEvent;
 
 public class Main extends JFrame {
     public Main() {
@@ -364,6 +366,16 @@ public class Main extends JFrame {
         // Agregar el panel de botones al JLayeredPane encima del panel principal
         buttonPanel.setBounds(0, 0, panel.getWidth(), panel.getHeight());
         layeredPane.add(buttonPanel, JLayeredPane.PALETTE_LAYER);
+
+        // Agregar un ComponentListener para ajustar el tamaño del panel cuando cambie el tamaño de la ventana (no sabes lo que me ha costado :()
+        addComponentListener(new ComponentAdapter() {
+            @Override
+            public void componentResized(ComponentEvent e) {
+                // Ajustar el tamaño del panel para llenar la ventana
+                panel.setBounds(0, 0, getWidth(), getHeight());
+                buttonPanel.setBounds(0, 0, getWidth(), getHeight());
+            }
+        });
 
     }
     public static void main(String[] args) {
