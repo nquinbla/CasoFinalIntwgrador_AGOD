@@ -8,8 +8,16 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main extends JFrame {
+    public Main() {
+
+        // Personalización de colores para decorar :)
+        Color colorMarcoPrincipal = new Color(110, 180, 250, 98); // Azul raro
+        getContentPane().setBackground(colorMarcoPrincipal); // Establece el color de fondo del marco principal
+
+        setTitle("Sistema Interactivo de Análisis Genómico y Organización de Datos (A.G.O.D.)");
+        setSize(800, 600);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         // Crear un nuevo marco (ventana)
         JFrame frame = new JFrame("Main GUI");
