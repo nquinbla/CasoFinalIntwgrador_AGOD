@@ -329,6 +329,15 @@ public class Main extends JFrame {
             }
         });
 
+        // Crear un JLayeredPane para superponer componentes
+        JLayeredPane layeredPane = new JLayeredPane();
+        add(layeredPane);
+
+
+        // Agregar el panel principal al JLayeredPane
+        panel.setBounds(0, 0, getWidth(), getHeight());
+        layeredPane.add(panel, JLayeredPane.DEFAULT_LAYER);
+
         // Crear un nuevo panel para los botones
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.Y_AXIS));
@@ -353,10 +362,9 @@ public class Main extends JFrame {
         buttonPanel.add(button8);
         buttonPanel.add(Box.createVerticalGlue());
 
-
-
-        // Hacer visible el marco
-        this.setVisible(true);
+        // Agregar el panel de botones al JLayeredPane encima del panel principal
+        buttonPanel.setBounds(0, 0, panel.getWidth(), panel.getHeight());
+        layeredPane.add(buttonPanel, JLayeredPane.PALETTE_LAYER);
     }
     public static void main(String[] args) {
         Main main = new Main();
