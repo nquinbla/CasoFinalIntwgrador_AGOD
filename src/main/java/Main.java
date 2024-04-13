@@ -33,6 +33,27 @@ public class Main extends JFrame {
         gbcTitulo.anchor = GridBagConstraints.PAGE_END;
         panelPrincipal.add(tituloPrincipal, gbcTitulo);
 
+        // Subtítulos "Análisis Genómico" y "Organización de Datos"
+        JLabel subtitulo1 = new JLabel("Análisis Genómico");
+        subtitulo1.setFont(new Font("Touch Me Sans Petite Semi Bold", Font.ITALIC, 24));
+        subtitulo1.setForeground(Color.BLACK);
+        GridBagConstraints gbcSubtitulo1 = new GridBagConstraints();
+        gbcSubtitulo1.gridx = 0;
+        gbcSubtitulo1.gridy = 1;
+        gbcSubtitulo1.weighty = 0;
+        gbcSubtitulo1.anchor = GridBagConstraints.PAGE_START;
+        panelPrincipal.add(subtitulo1, gbcSubtitulo1);
+
+        JLabel subtitulo2 = new JLabel("Organización de Datos");
+        subtitulo2.setFont(new Font("Touch Me Sans Petite Semi Bold", Font.BOLD, 24));
+        subtitulo2.setForeground(Color.BLUE);
+        GridBagConstraints gbcSubtitulo2 = new GridBagConstraints();
+        gbcSubtitulo2.gridx = 0;
+        gbcSubtitulo2.gridy = 2;
+        gbcSubtitulo2.weighty = 1;
+        gbcSubtitulo2.anchor = GridBagConstraints.PAGE_START;
+        panelPrincipal.add(subtitulo2, gbcSubtitulo2);
+
         // botones del panel para interactuar con las clases
         JButton button1 = new JButton("Gestión de Fechas");
         JButton button2 = new JButton("Búsqueda Eficiente en Textos");
