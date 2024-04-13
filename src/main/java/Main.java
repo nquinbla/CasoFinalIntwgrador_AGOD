@@ -13,7 +13,7 @@ public class Main extends JFrame {
         getContentPane().setBackground(colorMarcoPrincipal); // Establece el color de fondo del marco principal
 
         setTitle("Sistema Interactivo de Análisis Genómico y Organización de Datos (A.G.O.D.)");
-        setExtendedState(JFrame.MAXIMIZED_BOTH); // Maximiza la ventana
+        setSize(800, 600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         // Crear un panel para agregar componentes
