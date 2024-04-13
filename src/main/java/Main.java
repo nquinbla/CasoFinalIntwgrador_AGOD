@@ -13,7 +13,7 @@ public class Main extends JFrame {
         getContentPane().setBackground(colorMarcoPrincipal); // Establece el color de fondo del marco principal
 
         setTitle("Sistema Interactivo de Análisis Genómico y Organización de Datos (A.G.O.D.)");
-        setSize(800, 600);
+        setExtendedState(JFrame.MAXIMIZED_BOTH); // Maximiza la ventana
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         // Crear un panel para agregar componentes
@@ -333,7 +333,6 @@ public class Main extends JFrame {
         JLayeredPane layeredPane = new JLayeredPane();
         add(layeredPane);
 
-
         // Agregar el panel principal al JLayeredPane
         panel.setBounds(0, 0, getWidth(), getHeight());
         layeredPane.add(panel, JLayeredPane.DEFAULT_LAYER);
@@ -365,6 +364,7 @@ public class Main extends JFrame {
         // Agregar el panel de botones al JLayeredPane encima del panel principal
         buttonPanel.setBounds(0, 0, panel.getWidth(), panel.getHeight());
         layeredPane.add(buttonPanel, JLayeredPane.PALETTE_LAYER);
+
     }
     public static void main(String[] args) {
         Main main = new Main();
