@@ -329,7 +329,7 @@ public class Main extends JFrame {
             }
         });
 
-        // botones del panel
+// botones del panel
         panel.add(Box.createVerticalGlue());
         panel.add(button1);
         panel.add(Box.createRigidArea(new Dimension(0, 10)));
@@ -347,7 +347,6 @@ public class Main extends JFrame {
         panel.add(Box.createRigidArea(new Dimension(0, 10)));
         panel.add(button8);
         panel.add(Box.createVerticalGlue());
-        panel.add(Box.createRigidArea(new Dimension(10, 0))); // Agregar espacio a la derecha de los botones
 
         // Hacer visible el marco
         this.setVisible(true);
