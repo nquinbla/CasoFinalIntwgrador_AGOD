@@ -6,34 +6,35 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ConteoGenesGUI extends JFrame {
-    private JTextArea textArea;
+    private JTextField inputField;
+    private JButton countButton;
+    private JLabel resultLabel;
 
     public ConteoGenesGUI() {
         setTitle("Conteo de Genes \uD83E\uDDEC\u200B");
         setSize(400, 300);
-        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
-        textArea = new JTextArea(5, 20);
-        JScrollPane scrollPane = new JScrollPane(textArea);
+        inputField = new JTextField(20);
+        countButton = new JButton("Contar Genes");
+        resultLabel = new JLabel("Resultado aparecerá aquí");
 
-        JButton contarButton = new JButton("Contar");
-        contarButton.addActionListener(new ActionListener() {
+        countButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String cadenaADN = textArea.getText();
+                String cadenaADN = inputField.getText();
                 int conteo = ConteoGenes.contarGenesRecursivamente(cadenaADN, 0);
                 JOptionPane.showMessageDialog(null, "Número de genes: " + conteo, "Resultado", JOptionPane.INFORMATION_MESSAGE);
             }
         });
 
-        add(new JLabel("Cadena de ADN:"));
-        add(scrollPane);
-        add(contarButton);
-    }
+        add(inputField);
+        add(countButton);
+        add(resultLabel);
 
-    // Método main
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new ConteoGenesGUI().setVisible(true));
+        setLocationRelativeTo(null);
+        setVisible(true);
+
     }
 }
