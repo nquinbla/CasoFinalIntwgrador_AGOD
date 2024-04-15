@@ -12,7 +12,7 @@ public class BúsquedaTextosGUI extends JFrame {
     public BúsquedaTextosGUI() {
         setTitle("Búsqueda de Textos");
         setSize(300, 200);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
         textoField = new JTextField(20);

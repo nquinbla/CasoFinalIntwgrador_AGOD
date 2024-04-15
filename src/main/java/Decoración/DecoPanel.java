@@ -9,8 +9,10 @@ public class DecoPanel extends JPanel {
 
     public DecoPanel() {
         // Cargar la imagen
-        ImageIcon icono = new ImageIcon("src/main/resources/image-removebg-preview (3).png"); // Reemplaza "tu_imagen.png" con el nombre de tu imagen
+        ImageIcon icono = new ImageIcon("src/main/resources/image-removebg-preview (3).png");
         imagen = icono.getImage();
+        ImageIcon icono2 = new ImageIcon("src/main/resources/logoUAX-removebg-preview.png");
+        imagen = icono2.getImage();
     }
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
@@ -53,6 +55,12 @@ public class DecoPanel extends JPanel {
         int x = getWidth() / 2 - imagen.getWidth(null) / 2; // Centrar la imagen en el eje x
         int y = getHeight() / 2 - imagen.getHeight(null) / 2; // Centrar la imagen en el eje y
         g2d.drawImage(imagen, x, y, null);
+
+        // imagen logo UAX
+        int x2 = getWidth() / 2 - imagen.getWidth(null) / 2; // Centrar la imagen en el eje x
+        int y2 = getHeight() / 2 - imagen.getHeight(null) / 2; // Centrar la imagen en el eje y
+        g2d.drawImage(imagen, x2, y2, null);
+
 
     }
 }

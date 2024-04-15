@@ -11,7 +11,7 @@ public class ConteoGenesGUI extends JFrame {
     public ConteoGenesGUI() {
         setTitle("Conteo de Genes");
         setSize(400, 300);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
         textArea = new JTextArea(5, 20);

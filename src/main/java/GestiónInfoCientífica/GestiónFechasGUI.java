@@ -20,7 +20,7 @@ public class GestiónFechasGUI extends JFrame {
 
         setTitle("Gestión de Fechas");
         setSize(300, 200);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
         diaField = new JTextField(2);
