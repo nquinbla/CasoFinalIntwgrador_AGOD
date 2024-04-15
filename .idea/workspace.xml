@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="arreglos conteo de genes GUI">
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="arreglos búsqueda de textos GUI 3">
       <change afterPath="$PROJECT_DIR$/src/main/java/prueba2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/prueba3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenesGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenesGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,39 +114,7 @@
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
-      <workItem from="1713206448117" duration="7167000" />
-    </task>
-    <task id="LOCAL-00038" summary="main general 6">
-      <option name="closed" value="true" />
-      <created>1713012522161</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1713012522161</updated>
-    </task>
-    <task id="LOCAL-00039" summary="main general 7 (arreglillos)">
-      <option name="closed" value="true" />
-      <created>1713013129287</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1713013129287</updated>
-    </task>
-    <task id="LOCAL-00040" summary="main general 8 (porque los botones no se colocan donde yo quiero)">
-      <option name="closed" value="true" />
-      <created>1713013267041</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1713013267041</updated>
-    </task>
-    <task id="LOCAL-00041" summary="main general 8 (porque los botones no se colocan donde yo quiero)">
-      <option name="closed" value="true" />
-      <created>1713013492282</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1713013492282</updated>
+      <workItem from="1713206448117" duration="7604000" />
     </task>
     <task id="LOCAL-00042" summary="main general 10 (porque los botones no se colocan donde yo quiero)">
       <option name="closed" value="true" />
@@ -510,17 +476,45 @@
       <option name="project" value="LOCAL" />
       <updated>1713213511862</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="arreglos conteo de genes GUI 2">
+      <option name="closed" value="true" />
+      <created>1713213653086</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1713213653086</updated>
+    </task>
+    <task id="LOCAL-00088" summary="arreglos búsqueda de textos">
+      <option name="closed" value="true" />
+      <created>1713213814110</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1713213814110</updated>
+    </task>
+    <task id="LOCAL-00089" summary="arreglos búsqueda de textos GUI 2">
+      <option name="closed" value="true" />
+      <created>1713213970544</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1713213970544</updated>
+    </task>
+    <task id="LOCAL-00090" summary="arreglos búsqueda de textos GUI 3">
+      <option name="closed" value="true" />
+      <created>1713214066481</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1713214066481</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="arreglos main x3" />
-    <MESSAGE value="fuera prueba1.java" />
-    <MESSAGE value="refactorización" />
-    <MESSAGE value="cosas que borre sin darme cuenta 1" />
     <MESSAGE value="cosas que borre sin darme cuenta 2" />
     <MESSAGE value="cosas que borre sin darme cuenta 3" />
     <MESSAGE value="main arreglillos" />
@@ -542,7 +536,11 @@
     <MESSAGE value="deco 2" />
     <MESSAGE value="arreglos conteo de genes" />
     <MESSAGE value="arreglos conteo de genes GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglos conteo de genes GUI" />
+    <MESSAGE value="arreglos conteo de genes GUI 2" />
+    <MESSAGE value="arreglos búsqueda de textos" />
+    <MESSAGE value="arreglos búsqueda de textos GUI 2" />
+    <MESSAGE value="arreglos búsqueda de textos GUI 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglos búsqueda de textos GUI 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
