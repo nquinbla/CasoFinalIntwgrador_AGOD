@@ -11,7 +11,7 @@ public class CálculoComGenGUI extends JFrame {
     public CálculoComGenGUI() {
         setTitle("Cálculo de Combinaciones Genéticas \uD83E\uDDEC\uD83D\uDD00\u200B");
         setSize(400, 300);
-        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
         textField = new JTextField(20);

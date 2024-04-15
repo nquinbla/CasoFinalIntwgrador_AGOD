@@ -13,8 +13,8 @@ public class CálculoPotenciasYMáxGUI extends JFrame {
 
     public CálculoPotenciasYMáxGUI() {
         setTitle("Cálculo de Potencias y Máximos ➕\u200B➖➗✖️");
-        setSize(400, 300);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setSize(400, 270);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
         baseField = new JTextField(10);

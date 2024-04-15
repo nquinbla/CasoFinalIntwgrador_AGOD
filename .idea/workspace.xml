@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="organización documentos GUI arreglos 1">
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/OrganizaciónDocGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/OrganizaciónDocGUI.java" afterDir="false" />
-    </list>
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,23 +111,7 @@
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
-      <workItem from="1713206448117" duration="8186000" />
-    </task>
-    <task id="LOCAL-00045" summary="main general 12 (llorando me encuentro)">
-      <option name="closed" value="true" />
-      <created>1713017611520</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1713017611520</updated>
-    </task>
-    <task id="LOCAL-00046" summary="main general 14 (llorando me encuentro)">
-      <option name="closed" value="true" />
-      <created>1713017831200</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1713017831200</updated>
+      <workItem from="1713206448117" duration="8503000" />
     </task>
     <task id="LOCAL-00047" summary="main general 14">
       <option name="closed" value="true" />
@@ -507,15 +489,29 @@
       <option name="project" value="LOCAL" />
       <updated>1713214475020</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="organización documentos GUI arreglos 2">
+      <option name="closed" value="true" />
+      <created>1713214918023</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1713214918023</updated>
+    </task>
+    <task id="LOCAL-00095" summary="a">
+      <option name="closed" value="true" />
+      <created>1713214964536</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1713214964536</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main arreglillos 3" />
-    <MESSAGE value="main arreglillos 3/4" />
     <MESSAGE value="test main" />
     <MESSAGE value="conteo genes mejora" />
     <MESSAGE value="calculo combinaciones geneticas mejoras y arreglos" />
@@ -539,7 +535,9 @@
     <MESSAGE value="arreglos búsqueda de textos GUI 4" />
     <MESSAGE value="arreglos y ajustes gestión fechas gui" />
     <MESSAGE value="organización documentos GUI arreglos 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="organización documentos GUI arreglos 1" />
+    <MESSAGE value="organización documentos GUI arreglos 2" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

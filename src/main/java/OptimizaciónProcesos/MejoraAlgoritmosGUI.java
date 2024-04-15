@@ -13,7 +13,7 @@ public class MejoraAlgoritmosGUI extends JFrame {
     public MejoraAlgoritmosGUI() {
         setTitle("Mejora de Algoritmos \uD83D\uDCBB\u200B");
         setSize(400, 300);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
         numerosArea = new JTextArea(5, 20);

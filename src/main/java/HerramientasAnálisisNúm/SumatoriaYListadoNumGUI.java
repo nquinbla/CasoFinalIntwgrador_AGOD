@@ -12,8 +12,8 @@ public class SumatoriaYListadoNumGUI extends JFrame {
 
     public SumatoriaYListadoNumGUI() {
         setTitle("Sumatoria y Listado de Números ➕\u200B➕\u200B➕");
-        setSize(400, 300);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setSize(400, 135);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
         numField = new JTextField(10);

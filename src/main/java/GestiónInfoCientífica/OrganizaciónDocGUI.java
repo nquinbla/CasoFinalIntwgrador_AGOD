@@ -20,7 +20,7 @@ public class OrganizaciónDocGUI extends JFrame {
     public OrganizaciónDocGUI() {
         setTitle("Organización de Documentos \uD83D\uDCC4\u200B");
         setSize(535, 190);
-        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
         textArea = new JTextArea(5, 20);

@@ -18,7 +18,7 @@ public class BúsquedaTextosGUI extends JFrame {
     public BúsquedaTextosGUI() {
         setTitle("Búsqueda de Textos \uD83D\uDD0D");
         setSize(625, 290);
-        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
         textArea = new JTextArea(10, 30);
