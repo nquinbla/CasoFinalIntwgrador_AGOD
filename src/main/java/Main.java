@@ -1,5 +1,9 @@
 
-import Decoración.DecoPanel;
+import AnálisisGenómico.*;
+import Decoración.*;
+import GestiónInfoCientífica.*;
+import HerramientasAnálisisNúm.*;
+import OptimizaciónProcesos.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,6 +12,11 @@ import java.awt.event.ActionListener;
 
 public class Main extends JFrame {
     public Main() {
+
+        // Personalización de colores para decorar :)
+        Color colorMarcoPrincipal = new Color(110, 180, 250, 98); // Azul raro
+        getContentPane().setBackground(colorMarcoPrincipal); // Establece el color de fondo del marco principal
+
         // Configurar el marco principal
         setTitle("Sistema Interactivo de Análisis Genómico y Organización de Datos (A.G.O.D.)");
         setSize(800, 600);
@@ -54,16 +63,6 @@ public class Main extends JFrame {
         JButton button7 = new JButton("Cálculo de Potencias y Máximos");
         JButton button8 = new JButton("Sumatoria y Listado de Números");
 
-        // Manejar eventos de los botones
-        ActionListener buttonListener = new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JButton button = (JButton) e.getSource();
-                String buttonText = button.getText();
-                // Crear y mostrar un mensaje con el texto del botón presionado
-                JOptionPane.showMessageDialog(Main.this, "Presionaste el botón: " + buttonText);
-            }
-        };
 
         // Agregar botones al panel con las restricciones adecuadas
         gbc.anchor = GridBagConstraints.LINE_END;
@@ -78,18 +77,19 @@ public class Main extends JFrame {
         panel.add(button8, gbc);
 
         // Manejar eventos de los botones
-        button1.addActionListener(buttonListener);
-        button2.addActionListener(buttonListener);
-        button3.addActionListener(buttonListener);
-        button4.addActionListener(buttonListener);
-        button5.addActionListener(buttonListener);
-        button6.addActionListener(buttonListener);
-        button7.addActionListener(buttonListener);
-        button8.addActionListener(buttonListener);
+        button1.addActionListener(new ActionListener() { // Gestión de Fechas
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new GestiónFechas().setVisible(true);
+            }
+        });
+
+        //botones agregar
 
         // Centrar el marco en la pantalla
         setLocationRelativeTo(null);
     }
+
 
     // Método main
     public static void main(String[] args) {
