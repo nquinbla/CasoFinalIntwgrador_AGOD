@@ -12,7 +12,7 @@ public class CálculoPotenciasYMáxGUI extends JFrame {
     private JTextArea numerosArea;
 
     public CálculoPotenciasYMáxGUI() {
-        setTitle("Cálculo de Potencias y Máximos");
+        setTitle("Cálculo de Potencias y Máximos ➕\u200B➖➗✖️");
         setSize(400, 300);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new FlowLayout());

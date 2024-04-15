@@ -10,8 +10,8 @@ public class BúsquedaTextosGUI extends JFrame {
     private JTextArea textArea;
 
     public BúsquedaTextosGUI() {
-        setTitle("Búsqueda de Textos");
-        setSize(300, 200);
+        setTitle("Búsqueda de Textos \uD83D\uDD0D");
+        setSize(400, 300);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 

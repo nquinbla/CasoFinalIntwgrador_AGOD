@@ -18,8 +18,8 @@ public class GestiónFechasGUI extends JFrame {
     public GestiónFechasGUI() {
         this.fechas = new ArrayList<>();
 
-        setTitle("Gestión de Fechas");
-        setSize(300, 200);
+        setTitle("Gestión de Fechas \uD83D\uDDD3\uFE0F\u200B");
+        setSize(400, 300);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
