@@ -53,14 +53,14 @@ public class Main extends JFrame {
         panel.add(subtitulo2, gbc);
 
         // Botones del panel para interactuar con las clases
-        JButton button1 = new JButton("Gestión de Fechas");
-        JButton button2 = new JButton("Búsqueda Eficiente en Textos");
-        JButton button3 = new JButton("Organización de Documentos");
-        JButton button4 = new JButton("Conteo de Genes");
-        JButton button5 = new JButton("Cálculo de Combinaciones Genéticas");
-        JButton button6 = new JButton("Mejora de Algoritmos");
-        JButton button7 = new JButton("Cálculo de Potencias y Máximos");
-        JButton button8 = new JButton("Sumatoria y Listado de Números");
+        JButton button1 = new JButton("Gestión de Fechas 📆");
+        JButton button2 = new JButton("Búsqueda Eficiente en Textos \uD83D\uDD0D");
+        JButton button3 = new JButton("Organización de Documentos \uD83D\uDCC4\u200B");
+        JButton button4 = new JButton("Conteo de Genes 🔬");
+        JButton button5 = new JButton("Cálculo de Combinaciones Genéticas 🔬🔀");
+        JButton button6 = new JButton("Mejora de Algoritmos \u200B⬆\uFE0F\u200B \uD83D\uDCBB\u200B");
+        JButton button7 = new JButton("Cálculo de Potencias y Máximos \uD83D\uDCAA\uD83C\uDFFC\u200B");
+        JButton button8 = new JButton("Sumatoria y Listado de Números \uD83D\uDCC3\u200B➕");
 
         // Agregar botones al panel con las restricciones adecuadas
         gbc.anchor = GridBagConstraints.LINE_END;
