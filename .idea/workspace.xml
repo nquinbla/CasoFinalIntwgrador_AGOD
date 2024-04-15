@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="calculo combinaciones geneticas mejoras y arreglos">
-      <change beforePath="$PROJECT_DIR$/src/main/java/HerramientasAnálisisNúm/SumatoriaYListadoNumGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HerramientasAnálisisNúm/SumatoriaYListadoNumGUI.java" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="calculo potencias y max y arrelos sumatoria y listado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,41 +39,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BúsquedaTextos.executor": "Run",
-    "Application.ConteoGenesGUI.executor": "Run",
-    "Application.CálculoComGenGUI.executor": "Run",
-    "Application.CálculoCombGenGUI.executor": "Run",
-    "Application.CálculoPotenciasYMaximosGUI.executor": "Run",
-    "Application.CálculoPotenciasYMáxGUI.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main_AG.executor": "Run",
-    "Application.Main_GIC.executor": "Run",
-    "Application.Main_HAM.executor": "Run",
-    "Application.Main_OP.executor": "Run",
-    "Application.MejoraAlgoritmosGUI.executor": "Run",
-    "Application.OrganizaciónDoc.executor": "Run",
-    "Application.SumatoriaYListadoNumGUI.executor": "Run",
-    "JUnit.MainTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.qodana",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BúsquedaTextos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConteoGenesGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CálculoComGenGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CálculoCombGenGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CálculoPotenciasYMaximosGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CálculoPotenciasYMáxGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_AG.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_GIC.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_HAM.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_OP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MejoraAlgoritmosGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrganizaciónDoc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumatoriaYListadoNumGUI.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -104,23 +105,8 @@
       <workItem from="1712916279023" duration="6278000" />
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
-      <workItem from="1713182265796" duration="919000" />
-    </task>
-    <task id="LOCAL-00023" summary="búsqueda en textos comentarios">
-      <option name="closed" value="true" />
-      <created>1712923856091</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1712923856091</updated>
-    </task>
-    <task id="LOCAL-00024" summary="búsqueda en textos comentarios">
-      <option name="closed" value="true" />
-      <created>1712924033446</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1712924033446</updated>
+      <workItem from="1713182265796" duration="1229000" />
+      <workItem from="1713206448117" duration="672000" />
     </task>
     <task id="LOCAL-00025" summary="gestión de fechas">
       <option name="closed" value="true" />
@@ -498,14 +484,29 @@
       <option name="project" value="LOCAL" />
       <updated>1713182952505</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="calculo potencias y max y arrelos sumatoria y listado">
+      <option name="closed" value="true" />
+      <created>1713183420164</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1713183420164</updated>
+    </task>
+    <task id="LOCAL-00073" summary="calculo potencias y max y arrelos sumatoria y listado">
+      <option name="closed" value="true" />
+      <created>1713183470141</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1713183470141</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main general 14 (llorando me encuentro)" />
     <MESSAGE value="main general 14" />
     <MESSAGE value="que hago pt1" />
     <MESSAGE value="arreglos muchos no se que hago" />
@@ -530,7 +531,8 @@
     <MESSAGE value="test main" />
     <MESSAGE value="conteo genes mejora" />
     <MESSAGE value="calculo combinaciones geneticas mejoras y arreglos" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculo combinaciones geneticas mejoras y arreglos" />
+    <MESSAGE value="calculo potencias y max y arrelos sumatoria y listado" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculo potencias y max y arrelos sumatoria y listado" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
