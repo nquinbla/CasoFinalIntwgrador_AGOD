@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="deco 1">
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="deco 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/prueba2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/prueba3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +61,7 @@
     "Application.OrganizaciónDoc.executor": "Run",
     "Application.OrganizaciónDocGUI.executor": "Run",
     "Application.SumatoriaYListadoNumGUI.executor": "Run",
+    "Application.prueba3.executor": "Run",
     "JUnit.MainTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -113,15 +116,7 @@
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
-      <workItem from="1713206448117" duration="5839000" />
-    </task>
-    <task id="LOCAL-00035" summary="main general 3">
-      <option name="closed" value="true" />
-      <created>1713011932983</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1713011932983</updated>
+      <workItem from="1713206448117" duration="6837000" />
     </task>
     <task id="LOCAL-00036" summary="main general 4">
       <option name="closed" value="true" />
@@ -507,14 +502,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713211632371</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="deco 2">
+      <option name="closed" value="true" />
+      <created>1713212340992</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1713212340992</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sumatoria  y listado GUI" />
     <MESSAGE value="MejoraAlgoritmosGUI.java" />
     <MESSAGE value="arreglos main" />
     <MESSAGE value="arreglos main x3" />
@@ -539,7 +541,8 @@
     <MESSAGE value="he aprendido a como no poner imagenes" />
     <MESSAGE value="he aprendido a como no poner imagenes pt2" />
     <MESSAGE value="deco 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="deco 1" />
+    <MESSAGE value="deco 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="deco 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
