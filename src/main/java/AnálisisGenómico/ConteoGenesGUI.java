@@ -10,7 +10,7 @@ public class ConteoGenesGUI extends JFrame {
 
     public ConteoGenesGUI() {
         setTitle("Conteo de Genes");
-        setSize(300, 200);
+        setSize(400, 300);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
 
@@ -22,7 +22,7 @@ public class ConteoGenesGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String cadenaADN = textArea.getText();
-                int conteo = ConteoGenes.contarGenes(cadenaADN);
+                int conteo = ConteoGenes.contarGenesRecursivamente(cadenaADN, 0);
                 JOptionPane.showMessageDialog(null, "Número de genes: " + conteo, "Resultado", JOptionPane.INFORMATION_MESSAGE);
             }
         });
@@ -32,14 +32,6 @@ public class ConteoGenesGUI extends JFrame {
         add(contarButton);
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new ConteoGenesGUI().setVisible(true);
-            }
-        });
-    }
     // Método main
     public void ejecutar() {
         SwingUtilities.invokeLater(new Runnable() {

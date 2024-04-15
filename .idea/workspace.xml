@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="calculo potencias y max y arrelos sumatoria y listado">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="arreglillos para que furulen bien las cosas 2">
       <change beforePath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,23 +105,7 @@
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
-      <workItem from="1713206448117" duration="672000" />
-    </task>
-    <task id="LOCAL-00025" summary="gestión de fechas">
-      <option name="closed" value="true" />
-      <created>1712924084328</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1712924084328</updated>
-    </task>
-    <task id="LOCAL-00026" summary="ajustes gestión de fechasp">
-      <option name="closed" value="true" />
-      <created>1712924160759</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1712924160759</updated>
+      <workItem from="1713206448117" duration="994000" />
     </task>
     <task id="LOCAL-00027" summary="ajustes gestión de fechasp comentarios">
       <option name="closed" value="true" />
@@ -500,15 +483,29 @@
       <option name="project" value="LOCAL" />
       <updated>1713183470141</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="arreglillos para que furulen bien las cosas 1">
+      <option name="closed" value="true" />
+      <created>1713207304465</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1713207304465</updated>
+    </task>
+    <task id="LOCAL-00075" summary="arreglillos para que furulen bien las cosas 2">
+      <option name="closed" value="true" />
+      <created>1713207373335</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1713207373335</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main general 14" />
-    <MESSAGE value="que hago pt1" />
     <MESSAGE value="arreglos muchos no se que hago" />
     <MESSAGE value="gestión de fechas arreglos GUI" />
     <MESSAGE value="BúsquedaTextos arreglillos &#10;GUI" />
@@ -532,7 +529,9 @@
     <MESSAGE value="conteo genes mejora" />
     <MESSAGE value="calculo combinaciones geneticas mejoras y arreglos" />
     <MESSAGE value="calculo potencias y max y arrelos sumatoria y listado" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculo potencias y max y arrelos sumatoria y listado" />
+    <MESSAGE value="arreglillos para que furulen bien las cosas 1" />
+    <MESSAGE value="arreglillos para que furulen bien las cosas 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglillos para que furulen bien las cosas 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
