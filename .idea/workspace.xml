@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="main arreglillos">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="main arreglillos 3/4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,23 +91,7 @@
       <workItem from="1712679685446" duration="1274000" />
       <workItem from="1712916279023" duration="6278000" />
       <workItem from="1713009394721" duration="9193000" />
-      <workItem from="1713172034610" duration="5975000" />
-    </task>
-    <task id="LOCAL-00017" summary="main módulo 2">
-      <option name="closed" value="true" />
-      <created>1712923077047</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1712923077047</updated>
-    </task>
-    <task id="LOCAL-00018" summary="main módulo 2">
-      <option name="closed" value="true" />
-      <created>1712923105392</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1712923105392</updated>
+      <workItem from="1713172034610" duration="6493000" />
     </task>
     <task id="LOCAL-00019" summary="módulo 3 y sus respectivas clases">
       <option name="closed" value="true" />
@@ -487,15 +469,29 @@
       <option name="project" value="LOCAL" />
       <updated>1713178975090</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="main arreglillos 3">
+      <option name="closed" value="true" />
+      <created>1713179266526</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1713179266526</updated>
+    </task>
+    <task id="LOCAL-00067" summary="main arreglillos 3/4">
+      <option name="closed" value="true" />
+      <created>1713179395084</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1713179395084</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main general 8 (porque los botones no se colocan donde yo quiero)" />
-    <MESSAGE value="main general 10 (porque los botones no se colocan donde yo quiero)" />
     <MESSAGE value="main general 11 (no se que stoy haciendo)" />
     <MESSAGE value="main general 12 (llorando me encuentro)" />
     <MESSAGE value="main general 13 (llorando me encuentro)" />
@@ -519,7 +515,9 @@
     <MESSAGE value="cosas que borre sin darme cuenta 2" />
     <MESSAGE value="cosas que borre sin darme cuenta 3" />
     <MESSAGE value="main arreglillos" />
-    <option name="LAST_COMMIT_MESSAGE" value="main arreglillos" />
+    <MESSAGE value="main arreglillos 3" />
+    <MESSAGE value="main arreglillos 3/4" />
+    <option name="LAST_COMMIT_MESSAGE" value="main arreglillos 3/4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
