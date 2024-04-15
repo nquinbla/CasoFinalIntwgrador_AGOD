@@ -14,9 +14,6 @@ public class DecoPanel extends JPanel {
         imagen1 = icono1.getImage();
         ImageIcon icono2 = new ImageIcon("src/main/resources/logoUAX-removebg-preview.png");
         imagen2 = icono2.getImage();
-        imagen2 = icono2.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH); // Reemplaza 50, 50 con el ancho y la altura deseados
-
-
     }
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
@@ -61,10 +58,9 @@ public class DecoPanel extends JPanel {
         g2d.drawImage(imagen1, x, y, null);
 
         // Dibujar la segunda imagen en la esquina inferior izquierda
-        int x2 = 0;
-        int y2 = getHeight() - imagen2.getHeight(null);
+        int x2 = 0; // Esquina superior izquierda
+        int y2 = getHeight() - imagen2.getHeight(null); // Esquina inferior izquierda
         g2d.drawImage(imagen2, x2, y2, null);
-        g2d.setColor(Color.RED);
-        g2d.drawRect(x2, y2, imagen2.getWidth(null), imagen2.getHeight(null));
+
     }
 }
