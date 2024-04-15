@@ -1,4 +1,3 @@
-
 import AnálisisGenómico.*;
 import Decoración.*;
 import GestiónInfoCientífica.*;
@@ -80,56 +79,72 @@ public class Main extends JFrame {
         button1.addActionListener(new ActionListener() { // Gestión de Fechas
             @Override
             public void actionPerformed(ActionEvent e) {
-                new GestiónFechas().setVisible(true);
+                GestiónFechas ventana = new GestiónFechas();
+                ventana.setLocationRelativeTo(null);
+                ventana.setVisible(true);
             }
         });
 
         button2.addActionListener(new ActionListener() { // Búsqueda Eficiente en Textos
             @Override
             public void actionPerformed(ActionEvent e) {
-                new BúsquedaTextos().setVisible(true);
+                BúsquedaTextos ventana = new BúsquedaTextos();
+                ventana.setLocationRelativeTo(null);
+                ventana.setVisible(true);
             }
         });
 
         button3.addActionListener(new ActionListener() { // Organización de Documentos
             @Override
             public void actionPerformed(ActionEvent e) {
-                new OrganizaciónDoc().setVisible(true);
+                OrganizaciónDoc ventana = new OrganizaciónDoc();
+                ventana.setLocationRelativeTo(null);
+                ventana.setVisible(true);
             }
         });
 
         button4.addActionListener(new ActionListener() { // Conteo de Genes
             @Override
             public void actionPerformed(ActionEvent e) {
-                new ConteoGenesGUI().setVisible(true);
+                ConteoGenesGUI ventana = new ConteoGenesGUI();
+                ventana.setLocationRelativeTo(null);
+                ventana.setVisible(true);
             }
         });
 
         button5.addActionListener(new ActionListener() { // Cálculo de Combinaciones Genéticas
             @Override
             public void actionPerformed(ActionEvent e) {
-                new CálculoComGenGUI().setVisible(true);
+                CálculoComGenGUI ventana = new CálculoComGenGUI();
+                ventana.setLocationRelativeTo(null);
+                ventana.setVisible(true);
             }
         });
 
         button6.addActionListener(new ActionListener() { // Mejora de Algoritmos
             @Override
             public void actionPerformed(ActionEvent e) {
-                new MejoraAlgoritmosGUI().setVisible(true);
+                MejoraAlgoritmosGUI ventana = new MejoraAlgoritmosGUI();
+                ventana.setLocationRelativeTo(null);
+                ventana.setVisible(true);
             }
         });
 
         button7.addActionListener(new ActionListener() { // Cálculo de Potencias y Máximos
             @Override
             public void actionPerformed(ActionEvent e) {
-                new CálculoPotenciasYMáxGUI().setVisible(true);
+                CálculoPotenciasYMáxGUI ventana = new CálculoPotenciasYMáxGUI();
+                ventana.setLocationRelativeTo(null);
+                ventana.setVisible(true);
             }
         });
 
-        button8.addActionListener(new ActionListener() { // Sumatoria y Listado de Números
+        button8.addActionListener(new ActionListener() { // suma y listado de números
             @Override
             public void actionPerformed(ActionEvent e) {
-                new SumatoriaYListadoNumGUI().setVisible(true);
+                SumatoriaYListadoNumGUI ventana = new SumatoriaYListadoNumGUI();
+                ventana.setLocationRelativeTo(null);
+                ventana.setVisible(true);
             }
         });
 
