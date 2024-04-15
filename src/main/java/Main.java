@@ -106,6 +106,13 @@ public class Main extends JFrame {
             }
         });
 
+        button5.addActionListener(new ActionListener() { // Cálculo de Combinaciones Genéticas
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new CálculoComGenGUI().setVisible(true);
+            }
+        });
+
         // Centrar el marco en la pantalla
         setLocationRelativeTo(null);
     }
