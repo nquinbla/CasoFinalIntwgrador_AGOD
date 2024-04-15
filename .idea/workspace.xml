@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="cosas que borre sin darme cuenta 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="main arreglillos">
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,15 +93,7 @@
       <workItem from="1712679685446" duration="1274000" />
       <workItem from="1712916279023" duration="6278000" />
       <workItem from="1713009394721" duration="9193000" />
-      <workItem from="1713172034610" duration="5655000" />
-    </task>
-    <task id="LOCAL-00016" summary="ajustes">
-      <option name="closed" value="true" />
-      <created>1712922941768</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1712922941768</updated>
+      <workItem from="1713172034610" duration="5975000" />
     </task>
     <task id="LOCAL-00017" summary="main módulo 2">
       <option name="closed" value="true" />
@@ -488,14 +479,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713178552737</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="main arreglillos">
+      <option name="closed" value="true" />
+      <created>1713178975090</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1713178975090</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main general 7 (arreglillos)" />
     <MESSAGE value="main general 8 (porque los botones no se colocan donde yo quiero)" />
     <MESSAGE value="main general 10 (porque los botones no se colocan donde yo quiero)" />
     <MESSAGE value="main general 11 (no se que stoy haciendo)" />
@@ -520,7 +518,8 @@
     <MESSAGE value="cosas que borre sin darme cuenta 1" />
     <MESSAGE value="cosas que borre sin darme cuenta 2" />
     <MESSAGE value="cosas que borre sin darme cuenta 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="cosas que borre sin darme cuenta 3" />
+    <MESSAGE value="main arreglillos" />
+    <option name="LAST_COMMIT_MESSAGE" value="main arreglillos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
