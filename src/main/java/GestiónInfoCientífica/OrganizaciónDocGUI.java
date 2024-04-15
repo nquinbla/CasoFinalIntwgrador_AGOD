@@ -5,9 +5,15 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Arrays;
+import java.util.List;
 
 public class OrganizaciónDocGUI extends JFrame {
     private JTextArea textArea;
+    private JButton loadButton;
+    private JButton saveButton;
+    private JButton sortButton;
+    private JFileChooser fileChooser;
+    private List<String> documentos;
 
     public OrganizaciónDocGUI() {
         setTitle("Organización de Documentos \uD83D\uDCC4\u200B");
@@ -16,7 +22,10 @@ public class OrganizaciónDocGUI extends JFrame {
         setLayout(new FlowLayout());
 
         textArea = new JTextArea(5, 20);
-        JScrollPane scrollPane = new JScrollPane(textArea);
+        loadButton = new JButton("Cargar Documento");
+        saveButton = new JButton("Buscar Palabra");
+        sortButton = new JButton("Organizar Documentos");
+        fileChooser = new JFileChooser();
 
         JButton organizarButton = new JButton("Organizar");
         organizarButton.addActionListener(new ActionListener() {
