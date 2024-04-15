@@ -19,7 +19,7 @@ public class GestiónFechasGUI extends JFrame {
         this.fechas = new ArrayList<>();
 
         setTitle("Gestión de Fechas \uD83D\uDDD3\uFE0F\u200B");
-        setSize(400, 300);
+        setSize(400, 190);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
