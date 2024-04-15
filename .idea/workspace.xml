@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="arreglillos para que furulen bien las cosas 4">
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="he intentado hacer un fondo con adn pero no puuedo (sale deforme)">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image-removebg-preview (3).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Decoración/DecoPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decoración/DecoPanel.java" afterDir="false" />
     </list>
@@ -39,41 +40,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BúsquedaTextos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConteoGenesGUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CálculoComGenGUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CálculoCombGenGUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CálculoPotenciasYMaximosGUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CálculoPotenciasYMáxGUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main_AG.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main_GIC.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main_HAM.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main_OP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MejoraAlgoritmosGUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrganizaciónDoc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumatoriaYListadoNumGUI.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BúsquedaTextos.executor": "Run",
+    "Application.ConteoGenesGUI.executor": "Run",
+    "Application.CálculoComGenGUI.executor": "Run",
+    "Application.CálculoCombGenGUI.executor": "Run",
+    "Application.CálculoPotenciasYMaximosGUI.executor": "Run",
+    "Application.CálculoPotenciasYMáxGUI.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main_AG.executor": "Run",
+    "Application.Main_GIC.executor": "Run",
+    "Application.Main_HAM.executor": "Run",
+    "Application.Main_OP.executor": "Run",
+    "Application.MejoraAlgoritmosGUI.executor": "Run",
+    "Application.OrganizaciónDoc.executor": "Run",
+    "Application.SumatoriaYListadoNumGUI.executor": "Run",
+    "JUnit.MainTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.qodana",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -106,15 +107,7 @@
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
-      <workItem from="1713206448117" duration="2022000" />
-    </task>
-    <task id="LOCAL-00029" summary="meo¡jora algoritmos">
-      <option name="closed" value="true" />
-      <created>1712925322968</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1712925322968</updated>
+      <workItem from="1713206448117" duration="2946000" />
     </task>
     <task id="LOCAL-00030" summary="main módulo 4">
       <option name="closed" value="true" />
@@ -500,14 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713207839508</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="he intentado hacer un fondo con adn pero no puuedo (sale deforme)">
+      <option name="closed" value="true" />
+      <created>1713208669956</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1713208669956</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BúsquedaTextos arreglillos &#10;GUI" />
     <MESSAGE value="organización doc GUI" />
     <MESSAGE value="conteo genes GUI" />
     <MESSAGE value="calculo combinacion de genes GUI" />
@@ -532,7 +532,8 @@
     <MESSAGE value="arreglillos para que furulen bien las cosas 2" />
     <MESSAGE value="arreglillos para que furulen bien las cosas 3" />
     <MESSAGE value="arreglillos para que furulen bien las cosas 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglillos para que furulen bien las cosas 4" />
+    <MESSAGE value="he intentado hacer un fondo con adn pero no puuedo (sale deforme)" />
+    <option name="LAST_COMMIT_MESSAGE" value="he intentado hacer un fondo con adn pero no puuedo (sale deforme)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

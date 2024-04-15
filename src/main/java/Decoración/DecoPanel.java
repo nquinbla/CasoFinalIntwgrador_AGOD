@@ -5,6 +5,13 @@ import java.awt.*;
 
 // no es coña profe que esto es lo que más he tardado en hacer, me aparecían diecisietemil triangulos cuando solo quería decorarlo con dos líneas
 public class DecoPanel extends JPanel {
+    private Image imagen;
+
+    public DecoPanel() {
+        // Cargar la imagen
+        ImageIcon icono = new ImageIcon("src/main/resources/image-removebg-preview (3).png"); // Reemplaza "tu_imagen.png" con el nombre de tu imagen
+        imagen = icono.getImage();
+    }
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         Graphics2D g2d = (Graphics2D) g;
@@ -41,5 +48,13 @@ public class DecoPanel extends JPanel {
         int[] xPoints2 = {width / 3 + d + d2, width / 3 + d + 2 * d2, d + 2 * d2, d + d2}; // Coordenadas "x" de los puntos del nuevo polígono
         int[] yPoints2 = {0, 0, height, height}; // Coordenadas "y" de los puntos del nuevo polígono
         g2d.fillPolygon(xPoints2, yPoints2, nPoints); // Dibujar y rellenar el nuevo polígono
+
+        //imagen de ADN
+        int x = getWidth() / 2 - imagen.getWidth(null) / 2; // Centrar la imagen en el eje x
+        int y = getHeight() / 2 - imagen.getHeight(null) / 2; // Centrar la imagen en el eje y
+        g2d.drawImage(imagen, x, y, null);
+
     }
 }
+
+//         g2d.drawImage(new ImageIcon("src/main/java/Decoración/ADN.png").getImage(), width / 3, height / 3, 200, 200, null);
