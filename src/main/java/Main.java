@@ -84,7 +84,6 @@ public class Main extends JFrame {
             }
         });
 
-        //botones agregar
         button2.addActionListener(new ActionListener() { // Búsqueda Eficiente en Textos
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -134,12 +133,9 @@ public class Main extends JFrame {
             }
         });
 
-
         // Centrar el marco en la pantalla
         setLocationRelativeTo(null);
     }
-
-
 
     // Método main
     public static void main(String[] args) {

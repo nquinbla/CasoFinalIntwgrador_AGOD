@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="calculo potencias y maximos GUI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HerramientasAnálisisNúm/SumatoriaYListadoNumGUI.java" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="MejoraAlgoritmosGUI.java">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     "Application.Main_GIC.executor": "Run",
     "Application.Main_HAM.executor": "Run",
     "Application.Main_OP.executor": "Run",
+    "Application.MejoraAlgoritmosGUI.executor": "Run",
     "Application.OrganizaciónDoc.executor": "Run",
     "Application.SumatoriaYListadoNumGUI.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -92,23 +93,7 @@
       <workItem from="1712679685446" duration="1274000" />
       <workItem from="1712916279023" duration="6278000" />
       <workItem from="1713009394721" duration="9193000" />
-      <workItem from="1713172034610" duration="3823000" />
-    </task>
-    <task id="LOCAL-00007" summary="CálculoCombGen comentarios">
-      <option name="closed" value="true" />
-      <created>1712919511530</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1712919511530</updated>
-    </task>
-    <task id="LOCAL-00008" summary="prueba main">
-      <option name="closed" value="true" />
-      <created>1712919700141</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1712919700141</updated>
+      <workItem from="1713172034610" duration="4131000" />
     </task>
     <task id="LOCAL-00009" summary="main módulo 1">
       <option name="closed" value="true" />
@@ -486,15 +471,29 @@
       <option name="project" value="LOCAL" />
       <updated>1713176959396</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="sumatoria  y listado GUI">
+      <option name="closed" value="true" />
+      <created>1713177113882</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1713177113882</updated>
+    </task>
+    <task id="LOCAL-00057" summary="MejoraAlgoritmosGUI.java">
+      <option name="closed" value="true" />
+      <created>1713177372202</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1713177372202</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main módulo 3" />
-    <MESSAGE value="meo¡jora algoritmos" />
     <MESSAGE value="main módulo 4" />
     <MESSAGE value="main general 1" />
     <MESSAGE value="main general 2" />
@@ -518,7 +517,9 @@
     <MESSAGE value="conteo genes GUI" />
     <MESSAGE value="calculo combinacion de genes GUI" />
     <MESSAGE value="calculo potencias y maximos GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculo potencias y maximos GUI" />
+    <MESSAGE value="sumatoria  y listado GUI" />
+    <MESSAGE value="MejoraAlgoritmosGUI.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="MejoraAlgoritmosGUI.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
