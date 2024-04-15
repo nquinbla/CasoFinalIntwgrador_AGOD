@@ -10,16 +10,5 @@ public class ConteoGenes {
         }
         return 1 + contarGenes(dna.substring(index + 3));
     }
-    public static int contarGenesRecursivamente(String dna, int index){
-        if (index >= dna.length()){
-            return 0;
-        }
-        if (dna.startsWith("ATG", index)){
-            int fin = dna.indexOf("TAG", index);
-            if ((fin - index) % 3 == 0){
-                return 1 + contarGenesRecursivamente(dna, fin + 3);
-            }
-        }
-        return contarGenesRecursivamente(dna, index + 1);
-    }
+
 }

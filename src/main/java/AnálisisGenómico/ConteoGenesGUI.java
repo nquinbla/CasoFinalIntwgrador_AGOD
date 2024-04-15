@@ -12,19 +12,19 @@ public class ConteoGenesGUI extends JFrame {
 
     public ConteoGenesGUI() {
         setTitle("Conteo de Genes \uD83E\uDDEC\u200B");
-        setSize(400, 300);
+        setSize(300, 120);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
         inputField = new JTextField(20);
         countButton = new JButton("Contar Genes");
-        resultLabel = new JLabel("Resultado aparecerá aquí");
+        resultLabel = new JLabel("Resultado aparecerá en otra venatana");
 
         countButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String cadenaADN = inputField.getText();
-                int conteo = ConteoGenes.contarGenesRecursivamente(cadenaADN, 0);
+                int conteo = ConteoGenes.contarGenes(cadenaADN);
                 JOptionPane.showMessageDialog(null, "Número de genes: " + conteo, "Resultado", JOptionPane.INFORMATION_MESSAGE);
             }
         });
