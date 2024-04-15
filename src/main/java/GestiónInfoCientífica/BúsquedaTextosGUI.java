@@ -6,8 +6,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class BúsquedaTextosGUI extends JFrame {
-    private JTextField textoField;
+    private JTextField searchField;
     private JTextArea textArea;
+    private JButton searchButton;
+    private JButton loadButton;
+    private JFileChooser fileChooser;
+    private JLabel resultLabel;
+    private java.util.Map<String, java.util.List<Integer>> invertedIndex;
+
 
     public BúsquedaTextosGUI() {
         setTitle("Búsqueda de Textos \uD83D\uDD0D");
@@ -15,21 +21,26 @@ public class BúsquedaTextosGUI extends JFrame {
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
-        textoField = new JTextField(20);
-        textArea = new JTextArea(5, 20);
-        JScrollPane scrollPane = new JScrollPane(textArea);
+       textArea = new JTextArea(10, 30);
+        searchField = new JTextField(20);
+        searchButton = new JButton("Buscar Palabra");
+        loadButton = new JButton("Cargar Documento");
+        resultLabel = new JLabel("Resultados de la búsqueda:");
+        fileChooser = new JFileChooser();
+        invertedIndex = new java.util.HashMap<String, java.util.List<Integer>>();
 
-        JButton buscarButton = new JButton("Buscar");
-        buscarButton.addActionListener(new ActionListener() {
+        loadButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String texto = textoField.getText();
-                String[] array = textArea.getText().split("\n");
-                int resultado = búsquedaLineal(array, texto);
-                if (resultado != -1) {
-                    JOptionPane.showMessageDialog(null, "Texto encontrado en la línea " + (resultado + 1), "Resultado", JOptionPane.INFORMATION_MESSAGE);
-                } else {
-                    JOptionPane.showMessageDialog(null, "Texto no encontrado.", "Resultado", JOptionPane.INFORMATION_MESSAGE);
+                int returnVal = fileChooser.showOpenDialog(BúsquedaTextosGUI.this);
+                if (returnVal == JFileChooser.APPROVE_OPTION) {
+                    try {
+                        java.util.List<String> lines = java.nio.file.Files.readAllLines(fileChooser.getSelectedFile().toPath());
+                        textArea.setText(String.join("\n", lines));
+                        buildInvertedIndex(lines);
+                    } catch (java.io.IOException ex) {
+                        JOptionPane.showMessageDialog(BúsquedaTextosGUI.this, "Error al cargar el archivo.");
+                    }
                 }
             }
         });
