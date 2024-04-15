@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="intentado colocar los botones bonitos">
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="se superpone todo ayuda">
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,15 +113,7 @@
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
-      <workItem from="1713206448117" duration="9125000" />
-    </task>
-    <task id="LOCAL-00049" summary="arreglos muchos no se que hago">
-      <option name="closed" value="true" />
-      <created>1713173852217</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1713173852217</updated>
+      <workItem from="1713206448117" duration="9428000" />
     </task>
     <task id="LOCAL-00050" summary="gestión de fechas arreglos GUI">
       <option name="closed" value="true" />
@@ -507,14 +499,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713215522293</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="se superpone todo ayuda">
+      <option name="closed" value="true" />
+      <created>1713215706812</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1713215706812</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="calculo combinaciones geneticas mejoras y arreglos" />
     <MESSAGE value="calculo potencias y max y arrelos sumatoria y listado" />
     <MESSAGE value="arreglillos para que furulen bien las cosas 1" />
     <MESSAGE value="arreglillos para que furulen bien las cosas 2" />
@@ -539,7 +538,8 @@
     <MESSAGE value="a" />
     <MESSAGE value="arreglos de ventanas secundarias" />
     <MESSAGE value="intentado colocar los botones bonitos" />
-    <option name="LAST_COMMIT_MESSAGE" value="intentado colocar los botones bonitos" />
+    <MESSAGE value="se superpone todo ayuda" />
+    <option name="LAST_COMMIT_MESSAGE" value="se superpone todo ayuda" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -25,7 +25,8 @@ public class Main extends JFrame {
         JPanel panel = new DecoPanel();
         panel.setLayout(new GridBagLayout()); // Usar GridBagLayout
         panel.setBackground(new Color(255, 255, 255, 200)); // Blanco semi-transparente
-        panel.setOpaque(false); // Hacer que panelPrincipal sea transparente
+        panel.setOpaque(false); // Hacer que panelPrincipal sea
+        panel.setPreferredSize(new Dimension(getWidth(), getHeight())); // Establecer el tamaño del panel igual al del marco principal
         add(panel);
 
         // Configurar restricciones para el diseño de cuadrícula
