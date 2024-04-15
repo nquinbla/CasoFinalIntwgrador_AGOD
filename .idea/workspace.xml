@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="test main">
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="conteo genes mejora">
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/CálculoCombGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/CálculoCombGen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,15 +104,7 @@
       <workItem from="1712916279023" duration="6278000" />
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
-      <workItem from="1713182265796" duration="303000" />
-    </task>
-    <task id="LOCAL-00021" summary="organización de documnetos comentarios">
-      <option name="closed" value="true" />
-      <created>1712923530581</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1712923530581</updated>
+      <workItem from="1713182265796" duration="608000" />
     </task>
     <task id="LOCAL-00022" summary="búsqueda en tetos código 1">
       <option name="closed" value="true" />
@@ -498,14 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713182385825</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="conteo genes mejora">
+      <option name="closed" value="true" />
+      <created>1713182690073</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1713182690073</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main general 12 (llorando me encuentro)" />
     <MESSAGE value="main general 13 (llorando me encuentro)" />
     <MESSAGE value="main general 14 (llorando me encuentro)" />
     <MESSAGE value="main general 14" />
@@ -530,7 +529,8 @@
     <MESSAGE value="main arreglillos 3" />
     <MESSAGE value="main arreglillos 3/4" />
     <MESSAGE value="test main" />
-    <option name="LAST_COMMIT_MESSAGE" value="test main" />
+    <MESSAGE value="conteo genes mejora" />
+    <option name="LAST_COMMIT_MESSAGE" value="conteo genes mejora" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

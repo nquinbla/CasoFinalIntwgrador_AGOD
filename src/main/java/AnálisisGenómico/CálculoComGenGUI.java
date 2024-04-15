@@ -1,6 +1,5 @@
 package AnálisisGenómico;
 
-import AnálisisGenómico.CálculoCombGen;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -33,11 +32,6 @@ public class CálculoComGenGUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new CálculoComGenGUI().setVisible(true);
-            }
-        });
+        SwingUtilities.invokeLater(() -> new CálculoComGenGUI().setVisible(true));
     }
 }
