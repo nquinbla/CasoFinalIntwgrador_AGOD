@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="he intentado hacer un fondo con adn pero no puuedo (sale deforme)">
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="he aprendido a poner imagenes y a cuando cierres una ventana se cierre solo la venatna">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenesGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenesGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Decoración/DecoPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decoración/DecoPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +47,7 @@
     "Application.CálculoCombGenGUI.executor": "Run",
     "Application.CálculoPotenciasYMaximosGUI.executor": "Run",
     "Application.CálculoPotenciasYMáxGUI.executor": "Run",
+    "Application.DecoPanel.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main_AG.executor": "Run",
     "Application.Main_GIC.executor": "Run",
@@ -110,15 +110,7 @@
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
-      <workItem from="1713206448117" duration="3259000" />
-    </task>
-    <task id="LOCAL-00031" summary="main módulo 4">
-      <option name="closed" value="true" />
-      <created>1713009820099</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1713009820099</updated>
+      <workItem from="1713206448117" duration="3916000" />
     </task>
     <task id="LOCAL-00032" summary="main general 1">
       <option name="closed" value="true" />
@@ -504,14 +496,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713209482165</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="he aprendido a poner imagenes y a cuando cierres una ventana se cierre solo la venatna">
+      <option name="closed" value="true" />
+      <created>1713209844689</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1713209844689</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="organización doc GUI" />
     <MESSAGE value="conteo genes GUI" />
     <MESSAGE value="calculo combinacion de genes GUI" />
     <MESSAGE value="calculo potencias y maximos GUI" />
@@ -536,7 +535,8 @@
     <MESSAGE value="arreglillos para que furulen bien las cosas 3" />
     <MESSAGE value="arreglillos para que furulen bien las cosas 4" />
     <MESSAGE value="he intentado hacer un fondo con adn pero no puuedo (sale deforme)" />
-    <option name="LAST_COMMIT_MESSAGE" value="he intentado hacer un fondo con adn pero no puuedo (sale deforme)" />
+    <MESSAGE value="he aprendido a poner imagenes y a cuando cierres una ventana se cierre solo la venatna" />
+    <option name="LAST_COMMIT_MESSAGE" value="he aprendido a poner imagenes y a cuando cierres una ventana se cierre solo la venatna" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

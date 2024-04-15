@@ -3,16 +3,20 @@ package Decoración;
 import javax.swing.*;
 import java.awt.*;
 
-// no es coña profe que esto es lo que más he tardado en hacer, me aparecían diecisietemil triangulos cuando solo quería decorarlo con dos líneas
+// no es coña profe que esto es lo que más he tardado en hacer, me aparecían errores y he aprenido a poner imagenes
 public class DecoPanel extends JPanel {
-    private Image imagen;
+    private Image imagen1;
+    private Image imagen2;
 
     public DecoPanel() {
         // Cargar la imagen
-        ImageIcon icono = new ImageIcon("src/main/resources/image-removebg-preview (3).png");
-        imagen = icono.getImage();
+        ImageIcon icono1 = new ImageIcon("src/main/resources/image-removebg-preview (3).png");
+        imagen1 = icono1.getImage();
         ImageIcon icono2 = new ImageIcon("src/main/resources/logoUAX-removebg-preview.png");
-        imagen = icono2.getImage();
+        imagen2 = icono2.getImage();
+        imagen2 = icono2.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH); // Reemplaza 50, 50 con el ancho y la altura deseados
+
+
     }
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
@@ -52,17 +56,15 @@ public class DecoPanel extends JPanel {
         g2d.fillPolygon(xPoints2, yPoints2, nPoints); // Dibujar y rellenar el nuevo polígono
 
         //imagen de ADN
-        int x = getWidth() / 2 - imagen.getWidth(null) / 2; // Centrar la imagen en el eje x
-        int y = getHeight() / 2 - imagen.getHeight(null) / 2; // Centrar la imagen en el eje y
-        g2d.drawImage(imagen, x, y, null);
+        int x = getWidth() / 2 - imagen1.getWidth(null) / 2; // Centrar la imagen en el eje x
+        int y = getHeight() / 2 - imagen1.getHeight(null) / 2; // Centrar la imagen en el eje y
+        g2d.drawImage(imagen1, x, y, null);
 
-        // imagen logo UAX
-        int x2 = getWidth() / 2 - imagen.getWidth(null) / 2; // Centrar la imagen en el eje x
-        int y2 = getHeight() / 2 - imagen.getHeight(null) / 2; // Centrar la imagen en el eje y
-        g2d.drawImage(imagen, x2, y2, null);
-
-
+        // Dibujar la segunda imagen en la esquina inferior izquierda
+        int x2 = 0;
+        int y2 = getHeight() - imagen2.getHeight(null);
+        g2d.drawImage(imagen2, x2, y2, null);
+        g2d.setColor(Color.RED);
+        g2d.drawRect(x2, y2, imagen2.getWidth(null), imagen2.getHeight(null));
     }
 }
-
-//         g2d.drawImage(new ImageIcon("src/main/java/Decoración/ADN.png").getImage(), width / 3, height / 3, 200, 200, null);
