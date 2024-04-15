@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="que hago pt1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="arreglos muchos no se que hago">
       <change beforePath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/GestiónFechas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/GestiónFechas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/Main_GIC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +84,7 @@
       <workItem from="1712679685446" duration="1274000" />
       <workItem from="1712916279023" duration="6278000" />
       <workItem from="1713009394721" duration="9193000" />
-      <workItem from="1713172034610" duration="1583000" />
+      <workItem from="1713172034610" duration="1783000" />
     </task>
     <task id="LOCAL-00001" summary="Módulo Análisis Genómico">
       <option name="closed" value="true" />
@@ -474,14 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713018760213</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="arreglos muchos no se que hago">
+      <option name="closed" value="true" />
+      <created>1713173852217</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1713173852217</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="organización de documnetos código" />
     <MESSAGE value="organización de documnetos comentarios" />
     <MESSAGE value="búsqueda en tetos código 1" />
     <MESSAGE value="búsqueda en textos comentarios" />
@@ -506,7 +509,8 @@
     <MESSAGE value="main general 14 (llorando me encuentro)" />
     <MESSAGE value="main general 14" />
     <MESSAGE value="que hago pt1" />
-    <option name="LAST_COMMIT_MESSAGE" value="que hago pt1" />
+    <MESSAGE value="arreglos muchos no se que hago" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglos muchos no se que hago" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

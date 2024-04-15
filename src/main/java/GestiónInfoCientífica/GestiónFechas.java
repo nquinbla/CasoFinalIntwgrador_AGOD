@@ -36,10 +36,15 @@ public class GestiónFechas extends JFrame {
                 int dia = Integer.parseInt(diaField.getText());
                 int mes = Integer.parseInt(mesField.getText());
                 int año = Integer.parseInt(añoField.getText());
-                fechas.add(new Fecha(dia, mes, año));
-                diaField.setText("");
-                mesField.setText("");
-                añoField.setText("");
+                Fecha fecha = new Fecha(dia, mes, año);
+                if (fecha.esValida()) {
+                    fechas.add(fecha);
+                    diaField.setText("");
+                    mesField.setText("");
+                    añoField.setText("");
+                } else {
+                    JOptionPane.showMessageDialog(null, "La fecha ingresada no es válida.", "Error", JOptionPane.ERROR_MESSAGE);
+                }
             }
         });
 
@@ -75,6 +80,30 @@ public class GestiónFechas extends JFrame {
             this.dia = dia;
             this.mes = mes;
             this.año = año;
+        }
+
+        public boolean esValida() {
+            if (mes < 1 || mes > 12) {
+                return false;
+            }
+            if (dia < 1 || dia > 31) {
+                return false;
+            }
+            if (mes == 2) {
+                if (esBisiesto() && dia > 29) {
+                    return false;
+                } else if (!esBisiesto() && dia > 28) {
+                    return false;
+                }
+            }
+            if ((mes == 4 || mes == 6 || mes == 9 || mes == 11) && dia > 30) {
+                return false;
+            }
+            return true;
+        }
+
+        private boolean esBisiesto() {
+            return (año % 4 == 0 && año % 100 != 0) || año % 400 == 0;
         }
 
         @Override
