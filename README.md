@@ -9,10 +9,12 @@ El proyecto consistirá en el desarrollo de un sistema de software que integre f
  ### 1. Análisis Genómico (Ejercicios 7 y 8)
   * Conteo de Genes: Desarrollar una función recursiva que identifique y cuente las secuencias de genes en una cadena de ADN, utilizando la marca "ATG" para el inicio de genes -> [ConteoGenes] & [ConteoGenesGUI]
   * Cálculo de Combinaciones Genéticas: Implementar un algoritmo recursivo para calcular combinaciones genéticas basadas en un modelo simplificado, ayudando a los investigadores a predecir patrones genéticos -> [CálculoCombGen] & [CálculoComGenGUI]
+* EJEMPLO A USAR -> "ATGCGATAATGCTTAAATGTTTAA", donde esta cadena contiene dos genes: "ATGCGATAATGC" y "ATGTTT". 
 
  ### 2. Herramientas de Análisis Numérico (Ejercicios 1,2,3,4 y 5)
   * Sumatoria y Listado de Números: Crear funciones recursivas para calcular la suma de números naturales y listar números en un rango dado, que podrían ser utilizadas en el cálculo de estadísticas genéticas o demográficas -> [SumatoriaYListadoNum] & [SumatoriaYListadoNumGUI]
   * Cálculo de Potencias y Máximos: Implementar funciones para calcular potencias mediante multiplicaciones sucesivas y encontrar el valor máximo en un conjunto de datos numéricos, útiles en análisis de datos y modelado estadístico -> [CálculoPotenciasYMáx] & [CálculoPotenciasYMáxGUI]
+  * EJEMPLO A USAR -> "3", donde debe salir 8, ya que hay 8 combinaciones genéticas posibles para 3 genes
 
  ### 3. Gestión de Información Científica (Ejercicio 9,10,11 y 12)
   * Organización de Documentos: Desarrollar un programa que ordene alfabéticamente las líneas de un archivo de texto, ayudando a los investigadores a organizar sus notas y publicaciones -> [OrganizaciónDoc] & [OrganizaciónDocGUI]
