@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="BúsquedaTextos arreglillos &#10;GUI">
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/OrganizaciónDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/OrganizaciónDoc.java" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="organización doc GUI">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenesGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BúsquedaTextos.executor": "Run",
+    "Application.ConteoGenesGUI.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main_AG.executor": "Run",
     "Application.Main_GIC.executor": "Run",
@@ -87,15 +88,7 @@
       <workItem from="1712679685446" duration="1274000" />
       <workItem from="1712916279023" duration="6278000" />
       <workItem from="1713009394721" duration="9193000" />
-      <workItem from="1713172034610" duration="2721000" />
-    </task>
-    <task id="LOCAL-00003" summary="conteo genes 1">
-      <option name="closed" value="true" />
-      <created>1712918826722</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1712918826722</updated>
+      <workItem from="1713172034610" duration="3106000" />
     </task>
     <task id="LOCAL-00004" summary="conteo genes 1">
       <option name="closed" value="true" />
@@ -481,14 +474,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713175720737</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="organización doc GUI">
+      <option name="closed" value="true" />
+      <created>1713176013120</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1713176013120</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="búsqueda en textos comentarios" />
     <MESSAGE value="gestión de fechas" />
     <MESSAGE value="ajustes gestión de fechasp" />
     <MESSAGE value="ajustes gestión de fechasp comentarios" />
@@ -513,7 +513,8 @@
     <MESSAGE value="arreglos muchos no se que hago" />
     <MESSAGE value="gestión de fechas arreglos GUI" />
     <MESSAGE value="BúsquedaTextos arreglillos &#10;GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="BúsquedaTextos arreglillos &#10;GUI" />
+    <MESSAGE value="organización doc GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="organización doc GUI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

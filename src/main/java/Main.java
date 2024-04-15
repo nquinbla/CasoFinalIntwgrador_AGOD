@@ -99,6 +99,13 @@ public class Main extends JFrame {
             }
         });
 
+        button4.addActionListener(new ActionListener() { // Conteo de Genes
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new ConteoGenesGUI().setVisible(true);
+            }
+        });
+
         // Centrar el marco en la pantalla
         setLocationRelativeTo(null);
     }
