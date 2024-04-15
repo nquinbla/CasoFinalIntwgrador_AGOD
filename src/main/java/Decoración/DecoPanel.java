@@ -6,7 +6,6 @@ import java.awt.*;
 // no es coña profe que esto es lo que más he tardado en hacer, me aparecían diecisietemil triangulos cuando solo quería decorarlo con dos líneas
 public class DecoPanel extends JPanel {
     public void paintComponent(Graphics g) {
-
         super.paintComponent(g);
         Graphics2D g2d = (Graphics2D) g;
         int width = getWidth();
