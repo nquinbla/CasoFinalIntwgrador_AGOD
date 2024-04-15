@@ -1,30 +1,73 @@
 package GestiónInfoCientífica;
 
-public class BúsquedaTextos {
-    // Método que busca un texto en un array de textos
-    public static int búsquedaLineal (String[] array, String texto) {
-        for (int i = 0; i < array.length; i++) { // Recorremos el array
-            if (array[i].equals(texto)) { // Si encontramos el texto
-                return i; // Devolvemos la posición
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class BúsquedaTextos extends JFrame {
+    private JTextField textoField;
+    private JTextArea textArea;
+
+    public BúsquedaTextos() {
+        setTitle("Búsqueda de Textos");
+        setSize(300, 200);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLayout(new FlowLayout());
+
+        textoField = new JTextField(20);
+        textArea = new JTextArea(5, 20);
+        JScrollPane scrollPane = new JScrollPane(textArea);
+
+        JButton buscarButton = new JButton("Buscar");
+        buscarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String texto = textoField.getText();
+                String[] array = textArea.getText().split("\n");
+                int resultado = búsquedaLineal(array, texto);
+                if (resultado != -1) {
+                    JOptionPane.showMessageDialog(null, "Texto encontrado en la línea " + (resultado + 1), "Resultado", JOptionPane.INFORMATION_MESSAGE);
+                } else {
+                    JOptionPane.showMessageDialog(null, "Texto no encontrado.", "Resultado", JOptionPane.INFORMATION_MESSAGE);
+                }
+            }
+        });
+
+        add(new JLabel("Texto a buscar:"));
+        add(textoField);
+        add(new JLabel("Textos:"));
+        add(scrollPane);
+        add(buscarButton);
+    }
+
+    // Método principal para ejecutar la interfaz de usuario
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new BúsquedaTextos().setVisible(true);
+            }
+        });
+    }
+
+    // Método para realizar la búsqueda lineal
+    public static int búsquedaLineal(String[] array, String texto) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i].equals(texto)) {
+                return i;
             }
         }
         return -1;
     }
 
-    // Método que busca un texto en un array de textos ordenado
-    public static int búsquedaBinaria (String[] array, String texto) {
-        int inicio = 0;
-        int fin = array.length - 1;
-        while (inicio <= fin) { // Mientras que el inicio sea menor o igual que el final
-            int medio = (inicio + fin) / 2; // Calculamos el punto medio
-            if (array[medio].equals(texto)) { // Si encontramos el texto
-                return medio; // Devolvemos la posición
-            } else if (array[medio].compareTo(texto) < 0) { // Si el texto está en la mitad derecha
-                inicio = medio + 1; // Actualizamos el inicio
-            } else { // Si el texto está en la mitad izquierda
-                fin = medio - 1; // Actualizamos el final
+    // ejecución
+    public void ejecutar() {
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new BúsquedaTextos().setVisible(true);
             }
-        }
-        return -1; // Si no encontramos el texto, devolvemos -1
+        });
     }
 }
