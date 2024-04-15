@@ -33,12 +33,7 @@ public class ConteoGenesGUI extends JFrame {
     }
 
     // Método main
-    public void ejecutar() {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new ConteoGenesGUI().setVisible(true);
-            }
-        });
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new ConteoGenesGUI().setVisible(true));
     }
-    }
+}

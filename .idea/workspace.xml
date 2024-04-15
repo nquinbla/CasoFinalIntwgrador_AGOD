@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="arreglillos para que furulen bien las cosas 2">
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenes.java" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="arreglillos para que furulen bien las cosas 3">
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenesGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/ConteoGenesGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,15 +105,7 @@
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
-      <workItem from="1713206448117" duration="994000" />
-    </task>
-    <task id="LOCAL-00027" summary="ajustes gestión de fechasp comentarios">
-      <option name="closed" value="true" />
-      <created>1712924196033</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1712924196033</updated>
+      <workItem from="1713206448117" duration="1333000" />
     </task>
     <task id="LOCAL-00028" summary="main módulo 3">
       <option name="closed" value="true" />
@@ -499,14 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713207373335</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="arreglillos para que furulen bien las cosas 3">
+      <option name="closed" value="true" />
+      <created>1713207652333</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1713207652333</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="arreglos muchos no se que hago" />
     <MESSAGE value="gestión de fechas arreglos GUI" />
     <MESSAGE value="BúsquedaTextos arreglillos &#10;GUI" />
     <MESSAGE value="organización doc GUI" />
@@ -531,7 +530,8 @@
     <MESSAGE value="calculo potencias y max y arrelos sumatoria y listado" />
     <MESSAGE value="arreglillos para que furulen bien las cosas 1" />
     <MESSAGE value="arreglillos para que furulen bien las cosas 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglillos para que furulen bien las cosas 2" />
+    <MESSAGE value="arreglillos para que furulen bien las cosas 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglillos para que furulen bien las cosas 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
