@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="a" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="arreglos de ventanas secundarias">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,15 +113,7 @@
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
-      <workItem from="1713206448117" duration="8503000" />
-    </task>
-    <task id="LOCAL-00047" summary="main general 14">
-      <option name="closed" value="true" />
-      <created>1713018446093</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1713018446093</updated>
+      <workItem from="1713206448117" duration="8812000" />
     </task>
     <task id="LOCAL-00048" summary="que hago pt1">
       <option name="closed" value="true" />
@@ -505,14 +499,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713214964536</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="arreglos de ventanas secundarias">
+      <option name="closed" value="true" />
+      <created>1713215209398</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1713215209398</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test main" />
     <MESSAGE value="conteo genes mejora" />
     <MESSAGE value="calculo combinaciones geneticas mejoras y arreglos" />
     <MESSAGE value="calculo potencias y max y arrelos sumatoria y listado" />
@@ -537,7 +538,8 @@
     <MESSAGE value="organización documentos GUI arreglos 1" />
     <MESSAGE value="organización documentos GUI arreglos 2" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="arreglos de ventanas secundarias" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglos de ventanas secundarias" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

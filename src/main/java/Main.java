@@ -18,7 +18,7 @@ public class Main extends JFrame {
 
         // Configurar el marco principal
         setTitle("Sistema Interactivo de Análisis Genómico y Organización de Datos (A.G.O.D.)");
-        setSize(800, 600);
+        setSize(1000, 600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         // Crear un panel para agregar componentes
@@ -64,14 +64,28 @@ public class Main extends JFrame {
 
         // Agregar botones al panel con las restricciones adecuadas
         gbc.anchor = GridBagConstraints.LINE_END;
-        gbc.weightx = 1.0; // Hacer que los botones ocupen todo el espacio horizontal disponible
+        gbc.gridy = 0; // Posición vertical para el botón 1
         panel.add(button1, gbc);
+
+        gbc.gridy = 1; // Posición vertical para el botón 2
         panel.add(button2, gbc);
+
+        gbc.gridy = 2; // Posición vertical para el botón 3
         panel.add(button3, gbc);
+
+        gbc.gridy = 3; // Posición vertical para el botón 4
         panel.add(button4, gbc);
+
+        gbc.gridy = 4; // Posición vertical para el botón 5
         panel.add(button5, gbc);
+
+        gbc.gridy = 5; // Posición vertical para el botón 6
         panel.add(button6, gbc);
+
+        gbc.gridy = 6; // Posición vertical para el botón 7
         panel.add(button7, gbc);
+
+        gbc.gridy = 7; // Posición vertical para el botón 8
         panel.add(button8, gbc);
 
         // Manejar eventos de los botones
