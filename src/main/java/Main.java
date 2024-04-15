@@ -62,7 +62,6 @@ public class Main extends JFrame {
         JButton button7 = new JButton("Cálculo de Potencias y Máximos");
         JButton button8 = new JButton("Sumatoria y Listado de Números");
 
-
         // Agregar botones al panel con las restricciones adecuadas
         gbc.anchor = GridBagConstraints.LINE_END;
         gbc.weightx = 1.0; // Hacer que los botones ocupen todo el espacio horizontal disponible
