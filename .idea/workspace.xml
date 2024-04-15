@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="arreglos búsqueda de textos GUI 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba3.java" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="organización documentos GUI arreglos 1">
+      <change beforePath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/OrganizaciónDocGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/OrganizaciónDocGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,31 +113,7 @@
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
-      <workItem from="1713206448117" duration="7604000" />
-    </task>
-    <task id="LOCAL-00042" summary="main general 10 (porque los botones no se colocan donde yo quiero)">
-      <option name="closed" value="true" />
-      <created>1713014743692</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1713014743692</updated>
-    </task>
-    <task id="LOCAL-00043" summary="main general 11 (no se que stoy haciendo)">
-      <option name="closed" value="true" />
-      <created>1713015021031</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1713015021031</updated>
-    </task>
-    <task id="LOCAL-00044" summary="main general 12 (llorando me encuentro)">
-      <option name="closed" value="true" />
-      <created>1713015131325</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1713015131325</updated>
+      <workItem from="1713206448117" duration="8186000" />
     </task>
     <task id="LOCAL-00045" summary="main general 12 (llorando me encuentro)">
       <option name="closed" value="true" />
@@ -508,16 +483,37 @@
       <option name="project" value="LOCAL" />
       <updated>1713214066481</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="arreglos búsqueda de textos GUI 4">
+      <option name="closed" value="true" />
+      <created>1713214176736</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1713214176736</updated>
+    </task>
+    <task id="LOCAL-00092" summary="arreglos y ajustes gestión fechas gui">
+      <option name="closed" value="true" />
+      <created>1713214276571</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1713214276571</updated>
+    </task>
+    <task id="LOCAL-00093" summary="organización documentos GUI arreglos 1">
+      <option name="closed" value="true" />
+      <created>1713214475020</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1713214475020</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cosas que borre sin darme cuenta 2" />
-    <MESSAGE value="cosas que borre sin darme cuenta 3" />
-    <MESSAGE value="main arreglillos" />
     <MESSAGE value="main arreglillos 3" />
     <MESSAGE value="main arreglillos 3/4" />
     <MESSAGE value="test main" />
@@ -540,7 +536,10 @@
     <MESSAGE value="arreglos búsqueda de textos" />
     <MESSAGE value="arreglos búsqueda de textos GUI 2" />
     <MESSAGE value="arreglos búsqueda de textos GUI 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglos búsqueda de textos GUI 3" />
+    <MESSAGE value="arreglos búsqueda de textos GUI 4" />
+    <MESSAGE value="arreglos y ajustes gestión fechas gui" />
+    <MESSAGE value="organización documentos GUI arreglos 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="organización documentos GUI arreglos 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
