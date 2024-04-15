@@ -1,12 +1,10 @@
 package HerramientasAnálisisNúm;
 
-import HerramientasAnálisisNúm.CálculoPotenciasYMáx;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Arrays;
-import java.util.stream.Collectors;
 
 public class CálculoPotenciasYMáxGUI extends JFrame {
     private JTextField baseField;
@@ -28,10 +26,14 @@ public class CálculoPotenciasYMáxGUI extends JFrame {
         calcularPotenciaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int base = Integer.parseInt(baseField.getText());
-                int exponente = Integer.parseInt(exponenteField.getText());
-                int resultado = CálculoPotenciasYMáx.calcularPotencia(base, exponente);
-                JOptionPane.showMessageDialog(null, "Resultado: " + resultado, "Potencia", JOptionPane.INFORMATION_MESSAGE);
+                try {
+                    int base = Integer.parseInt(baseField.getText());
+                    int exponente = Integer.parseInt(exponenteField.getText());
+                    int resultado = CálculoPotenciasYMáx.calcularPotencia(base, exponente);
+                    JOptionPane.showMessageDialog(null, "Resultado: " + resultado, "Potencia", JOptionPane.INFORMATION_MESSAGE);
+                } catch (IllegalArgumentException ex) {
+                    JOptionPane.showMessageDialog(null, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+                }
             }
         });
 
@@ -39,9 +41,13 @@ public class CálculoPotenciasYMáxGUI extends JFrame {
         encontrarMaximoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int[] numeros = Arrays.stream(numerosArea.getText().split("\\s+")).mapToInt(Integer::parseInt).toArray();
-                int maximo = CálculoPotenciasYMáx.encontrarMáx(numeros, numeros.length);
-                JOptionPane.showMessageDialog(null, "Máximo: " + maximo, "Máximo", JOptionPane.INFORMATION_MESSAGE);
+                try {
+                    int[] numeros = Arrays.stream(numerosArea.getText().split("\\s+")).mapToInt(Integer::parseInt).toArray();
+                    int maximo = CálculoPotenciasYMáx.encontrarMáx(numeros, numeros.length);
+                    JOptionPane.showMessageDialog(null, "Máximo: " + maximo, "Máximo", JOptionPane.INFORMATION_MESSAGE);
+                } catch (IllegalArgumentException ex) {
+                    JOptionPane.showMessageDialog(null, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+                }
             }
         });
 

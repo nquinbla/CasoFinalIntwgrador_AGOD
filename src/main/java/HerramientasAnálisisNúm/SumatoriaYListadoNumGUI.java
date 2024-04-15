@@ -1,6 +1,5 @@
 package HerramientasAnálisisNúm;
 
-import HerramientasAnálisisNúm.SumatoriaYListadoNum;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -25,9 +24,13 @@ public class SumatoriaYListadoNumGUI extends JFrame {
         calcularSumatoriaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int num = Integer.parseInt(numField.getText());
-                int resultado = SumatoriaYListadoNum.calcularSumatoria(num);
-                JOptionPane.showMessageDialog(null, "Resultado: " + resultado, "Sumatoria", JOptionPane.INFORMATION_MESSAGE);
+                try {
+                    int num = Integer.parseInt(numField.getText());
+                    int resultado = SumatoriaYListadoNum.calcularSumatoria(num);
+                    JOptionPane.showMessageDialog(null, "Resultado: " + resultado, "Sumatoria", JOptionPane.INFORMATION_MESSAGE);
+                } catch (IllegalArgumentException ex) {
+                    JOptionPane.showMessageDialog(null, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+                }
             }
         });
 
@@ -35,9 +38,15 @@ public class SumatoriaYListadoNumGUI extends JFrame {
         listarNumerosButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int inicio = Integer.parseInt(inicioField.getText());
-                int fin = Integer.parseInt(finField.getText());
-                SumatoriaYListadoNum.listarNumeros(inicio, fin);
+                try {
+                    int inicio = Integer.parseInt(inicioField.getText());
+                    int fin = Integer.parseInt(finField.getText());
+                    StringBuilder sb = new StringBuilder();
+                    SumatoriaYListadoNum.listarNumeros(inicio, fin, sb);
+                    JOptionPane.showMessageDialog(null, sb.toString(), "Listado de Números", JOptionPane.INFORMATION_MESSAGE);
+                } catch (IllegalArgumentException ex) {
+                    JOptionPane.showMessageDialog(null, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+                }
             }
         });
 
