@@ -21,7 +21,7 @@ public class BúsquedaTextosGUI extends JFrame {
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLayout(new FlowLayout());
 
-       textArea = new JTextArea(10, 30);
+        textArea = new JTextArea(10, 30);
         searchField = new JTextField(20);
         searchButton = new JButton("Buscar Palabra");
         loadButton = new JButton("Cargar Documento");
@@ -45,11 +45,30 @@ public class BúsquedaTextosGUI extends JFrame {
             }
         });
 
-        add(new JLabel("Texto a buscar:"));
-        add(textoField);
-        add(new JLabel("Textos:"));
-        add(scrollPane);
-        add(buscarButton);
+        searchButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String word = searchField.getText();
+                if (invertedIndex.containsKey(word)) {
+                    resultLabel.setText("Palabra encontrada en líneas: " + invertedIndex.get(word));
+                } else {
+                    resultLabel.setText("La palabra no fue encontrada en el documento.");
+                }
+            }
+        });
+
+        JPanel panel = new JPanel();
+        panel.add(loadButton);
+        panel.add(new JLabel("Buscar Palabra:"));
+        panel.add(searchField);
+        panel.add(searchButton);
+
+        add(new JScrollPane(textArea));
+        add(panel);
+        add(resultLabel);
+
+        setLocationRelativeTo(null);
+        setVisible(true);
     }
 
     // Método principal para ejecutar la interfaz de usuario
@@ -62,23 +81,18 @@ public class BúsquedaTextosGUI extends JFrame {
         });
     }
 
-    // Método para realizar la búsqueda lineal
-    public static int búsquedaLineal(String[] array, String texto) {
-        for (int i = 0; i < array.length; i++) {
-            if (array[i].equals(texto)) {
-                return i;
+    private void buildInvertedIndex(java.util.List<String> lines) {
+        invertedIndex.clear();
+        for (int i = 0; i < lines.size(); i++) {
+            String[] words = lines.get(i).split("\\W+");
+            for (String word : words) {
+                word = word.toLowerCase();
+                if (!invertedIndex.containsKey(word)) {
+                    invertedIndex.put(word, new java.util.ArrayList<Integer>());
+                }
+                invertedIndex.get(word).add(i + 1);
             }
         }
-        return -1;
     }
 
-    // ejecución
-    public void ejecutar() {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new BúsquedaTextosGUI().setVisible(true);
-            }
-        });
-    }
 }
