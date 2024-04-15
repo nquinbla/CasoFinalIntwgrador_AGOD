@@ -1,8 +1,5 @@
 package AnálisisGenómico;
 
-import AnálisisGenómico.*;
-import GestiónInfoCientífica.BúsquedaTextos;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

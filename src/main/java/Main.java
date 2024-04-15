@@ -79,7 +79,7 @@ public class Main extends JFrame {
         button1.addActionListener(new ActionListener() { // Gestión de Fechas
             @Override
             public void actionPerformed(ActionEvent e) {
-                GestiónFechas ventana = new GestiónFechas();
+                GestiónFechasGUI ventana = new GestiónFechasGUI();
                 ventana.setLocationRelativeTo(null);
                 ventana.setVisible(true);
             }
@@ -88,7 +88,7 @@ public class Main extends JFrame {
         button2.addActionListener(new ActionListener() { // Búsqueda Eficiente en Textos
             @Override
             public void actionPerformed(ActionEvent e) {
-                BúsquedaTextos ventana = new BúsquedaTextos();
+                BúsquedaTextosGUI ventana = new BúsquedaTextosGUI();
                 ventana.setLocationRelativeTo(null);
                 ventana.setVisible(true);
             }
@@ -97,7 +97,7 @@ public class Main extends JFrame {
         button3.addActionListener(new ActionListener() { // Organización de Documentos
             @Override
             public void actionPerformed(ActionEvent e) {
-                OrganizaciónDoc ventana = new OrganizaciónDoc();
+                OrganizaciónDocGUI ventana = new OrganizaciónDocGUI();
                 ventana.setLocationRelativeTo(null);
                 ventana.setVisible(true);
             }

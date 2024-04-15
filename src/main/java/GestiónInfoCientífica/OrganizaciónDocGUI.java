@@ -6,10 +6,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Arrays;
 
-public class OrganizaciónDoc extends JFrame {
+public class OrganizaciónDocGUI extends JFrame {
     private JTextArea textArea;
 
-    public OrganizaciónDoc() {
+    public OrganizaciónDocGUI() {
         setTitle("Organización de Documentos");
         setSize(300, 200);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -46,7 +46,7 @@ public class OrganizaciónDoc extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new OrganizaciónDoc().setVisible(true);
+                new OrganizaciónDocGUI().setVisible(true);
             }
         });
     }

@@ -5,11 +5,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class BúsquedaTextos extends JFrame {
+public class BúsquedaTextosGUI extends JFrame {
     private JTextField textoField;
     private JTextArea textArea;
 
-    public BúsquedaTextos() {
+    public BúsquedaTextosGUI() {
         setTitle("Búsqueda de Textos");
         setSize(300, 200);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -46,7 +46,7 @@ public class BúsquedaTextos extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new BúsquedaTextos().setVisible(true);
+                new BúsquedaTextosGUI().setVisible(true);
             }
         });
     }
@@ -66,7 +66,7 @@ public class BúsquedaTextos extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new BúsquedaTextos().setVisible(true);
+                new BúsquedaTextosGUI().setVisible(true);
             }
         });
     }

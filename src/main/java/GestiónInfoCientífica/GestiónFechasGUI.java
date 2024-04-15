@@ -8,14 +8,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class GestiónFechas extends JFrame {
+public class GestiónFechasGUI extends JFrame {
     private List<Fecha> fechas;
     private JTextField diaField;
     private JTextField mesField;
     private JTextField añoField;
     private JTextArea textArea;
 
-    public GestiónFechas() {
+    public GestiónFechasGUI() {
         this.fechas = new ArrayList<>();
 
         setTitle("Gestión de Fechas");
@@ -127,7 +127,7 @@ public class GestiónFechas extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new GestiónFechas().setVisible(true);
+                new GestiónFechasGUI().setVisible(true);
             }
         });
     }
