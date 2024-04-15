@@ -52,6 +52,15 @@ public class Main extends JFrame {
         subtitulo2.setForeground(Color.BLUE);
         panel.add(subtitulo2, gbc);
 
+        // Subtítulo "Nerea Quintanilla Blanco"
+        JLabel subtitulo3 = new JLabel("Nerea Quintanilla Blanco");
+        subtitulo3.setFont(new Font("Touch Me Sans Petite Semi Bold", Font.BOLD, 24));
+        subtitulo3.setAlignmentX(Component.CENTER_ALIGNMENT);
+        subtitulo3.setAlignmentY(Component.BOTTOM_ALIGNMENT);
+        subtitulo3.setForeground(Color.BLUE);
+        panel.add(subtitulo3, gbc);
+
+
         // Botones del panel para interactuar con las clases
         JButton button1 = new JButton("Gestión de Fechas");
         JButton button2 = new JButton("Búsqueda Eficiente en Textos");

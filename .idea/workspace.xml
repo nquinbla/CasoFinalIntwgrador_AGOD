@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="MejoraAlgoritmosGUI.java">
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="cosas que borre sin darme cuenta 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,63 +94,7 @@
       <workItem from="1712679685446" duration="1274000" />
       <workItem from="1712916279023" duration="6278000" />
       <workItem from="1713009394721" duration="9193000" />
-      <workItem from="1713172034610" duration="4131000" />
-    </task>
-    <task id="LOCAL-00009" summary="main módulo 1">
-      <option name="closed" value="true" />
-      <created>1712919854767</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1712919854767</updated>
-    </task>
-    <task id="LOCAL-00010" summary="main módulo 1 (ajustes)">
-      <option name="closed" value="true" />
-      <created>1712919902101</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1712919902101</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Sumatoria y Listado de números código 1">
-      <option name="closed" value="true" />
-      <created>1712920371399</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1712920371399</updated>
-    </task>
-    <task id="LOCAL-00012" summary="tengo 9 errores de no se de donde 2">
-      <option name="closed" value="true" />
-      <created>1712920651389</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1712920651389</updated>
-    </task>
-    <task id="LOCAL-00013" summary="arreglos sumatoria y listado de numeros">
-      <option name="closed" value="true" />
-      <created>1712920731641</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1712920731641</updated>
-    </task>
-    <task id="LOCAL-00014" summary="calculo y potencias de máximos código 1">
-      <option name="closed" value="true" />
-      <created>1712920936580</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1712920936580</updated>
-    </task>
-    <task id="LOCAL-00015" summary="calculo y potencias de máximos código 2">
-      <option name="closed" value="true" />
-      <created>1712922815870</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1712922815870</updated>
+      <workItem from="1713172034610" duration="5655000" />
     </task>
     <task id="LOCAL-00016" summary="ajustes">
       <option name="closed" value="true" />
@@ -487,20 +432,69 @@
       <option name="project" value="LOCAL" />
       <updated>1713177372202</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="arreglos main">
+      <option name="closed" value="true" />
+      <created>1713177427514</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1713177427514</updated>
+    </task>
+    <task id="LOCAL-00059" summary="arreglos main x3">
+      <option name="closed" value="true" />
+      <created>1713177922202</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1713177922202</updated>
+    </task>
+    <task id="LOCAL-00060" summary="fuera prueba1.java">
+      <option name="closed" value="true" />
+      <created>1713177972400</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1713177972400</updated>
+    </task>
+    <task id="LOCAL-00061" summary="refactorización">
+      <option name="closed" value="true" />
+      <created>1713178022378</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1713178022378</updated>
+    </task>
+    <task id="LOCAL-00062" summary="cosas que borre sin darme cuenta 1">
+      <option name="closed" value="true" />
+      <created>1713178257277</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1713178257277</updated>
+    </task>
+    <task id="LOCAL-00063" summary="cosas que borre sin darme cuenta 2">
+      <option name="closed" value="true" />
+      <created>1713178467273</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1713178467273</updated>
+    </task>
+    <task id="LOCAL-00064" summary="cosas que borre sin darme cuenta 3">
+      <option name="closed" value="true" />
+      <created>1713178552737</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1713178552737</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main módulo 4" />
-    <MESSAGE value="main general 1" />
-    <MESSAGE value="main general 2" />
-    <MESSAGE value="main general 3" />
-    <MESSAGE value="main general 4" />
-    <MESSAGE value="main general 5" />
-    <MESSAGE value="main general 6" />
     <MESSAGE value="main general 7 (arreglillos)" />
     <MESSAGE value="main general 8 (porque los botones no se colocan donde yo quiero)" />
     <MESSAGE value="main general 10 (porque los botones no se colocan donde yo quiero)" />
@@ -519,7 +513,14 @@
     <MESSAGE value="calculo potencias y maximos GUI" />
     <MESSAGE value="sumatoria  y listado GUI" />
     <MESSAGE value="MejoraAlgoritmosGUI.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="MejoraAlgoritmosGUI.java" />
+    <MESSAGE value="arreglos main" />
+    <MESSAGE value="arreglos main x3" />
+    <MESSAGE value="fuera prueba1.java" />
+    <MESSAGE value="refactorización" />
+    <MESSAGE value="cosas que borre sin darme cuenta 1" />
+    <MESSAGE value="cosas que borre sin darme cuenta 2" />
+    <MESSAGE value="cosas que borre sin darme cuenta 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="cosas que borre sin darme cuenta 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
