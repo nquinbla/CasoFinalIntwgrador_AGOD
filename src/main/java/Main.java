@@ -92,6 +92,13 @@ public class Main extends JFrame {
             }
         });
 
+        button3.addActionListener(new ActionListener() { // Organización de Documentos
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new OrganizaciónDoc().setVisible(true);
+            }
+        });
+
         // Centrar el marco en la pantalla
         setLocationRelativeTo(null);
     }

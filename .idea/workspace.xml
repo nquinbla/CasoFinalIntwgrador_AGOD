@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="gestión de fechas arreglos GUI">
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/Main_AG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/BúsquedaTextos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/BúsquedaTextos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HerramientasAnálisisNúm/Main_HAM.java" beforeDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="BúsquedaTextos arreglillos &#10;GUI">
+      <change beforePath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/OrganizaciónDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/OrganizaciónDoc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OptimizaciónProcesos/Main_OP.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +46,7 @@
     "Application.Main_GIC.executor": "Run",
     "Application.Main_HAM.executor": "Run",
     "Application.Main_OP.executor": "Run",
+    "Application.OrganizaciónDoc.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -89,15 +87,7 @@
       <workItem from="1712679685446" duration="1274000" />
       <workItem from="1712916279023" duration="6278000" />
       <workItem from="1713009394721" duration="9193000" />
-      <workItem from="1713172034610" duration="2402000" />
-    </task>
-    <task id="LOCAL-00002" summary="Módulo Análisis Genómico">
-      <option name="closed" value="true" />
-      <created>1712916484811</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1712916484811</updated>
+      <workItem from="1713172034610" duration="2721000" />
     </task>
     <task id="LOCAL-00003" summary="conteo genes 1">
       <option name="closed" value="true" />
@@ -483,14 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713175067627</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="BúsquedaTextos arreglillos &#10;GUI">
+      <option name="closed" value="true" />
+      <created>1713175720737</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1713175720737</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="búsqueda en tetos código 1" />
     <MESSAGE value="búsqueda en textos comentarios" />
     <MESSAGE value="gestión de fechas" />
     <MESSAGE value="ajustes gestión de fechasp" />
@@ -515,7 +512,8 @@
     <MESSAGE value="que hago pt1" />
     <MESSAGE value="arreglos muchos no se que hago" />
     <MESSAGE value="gestión de fechas arreglos GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="gestión de fechas arreglos GUI" />
+    <MESSAGE value="BúsquedaTextos arreglillos &#10;GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="BúsquedaTextos arreglillos &#10;GUI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,17 +1,53 @@
 package GestiónInfoCientífica;
 
-public class OrganizaciónDoc {
-    // Organiza los documentos alfabéticamente
-    public static String[] organizarAlfabéticamente(String[] documentos) {
-        for (int i = 0; i < documentos.length; i++) { // Ordena los documentos
-            for (int j = i + 1; j < documentos.length; j++) { // Si el documento i es mayor al documento j, se intercambian
-                if (documentos[i].compareTo(documentos[j]) > 0) { // Compara los documentos
-                    String temp = documentos[i];
-                    documentos[i] = documentos[j];
-                    documentos[j] = temp;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Arrays;
+
+public class OrganizaciónDoc extends JFrame {
+    private JTextArea textArea;
+
+    public OrganizaciónDoc() {
+        setTitle("Organización de Documentos");
+        setSize(300, 200);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLayout(new FlowLayout());
+
+        textArea = new JTextArea(5, 20);
+        JScrollPane scrollPane = new JScrollPane(textArea);
+
+        JButton organizarButton = new JButton("Organizar");
+        organizarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String[] documentos = textArea.getText().split("\n");
+                documentos = organizarAlfabéticamente(documentos);
+                StringBuilder resultado = new StringBuilder();
+                for (String doc : documentos) {
+                    resultado.append(doc).append("\n");
                 }
+                JOptionPane.showMessageDialog(null, resultado.toString(), "Documentos Organizados", JOptionPane.INFORMATION_MESSAGE);
             }
-        }
-        return documentos; // Devuelve los documentos ordenados
+        });
+
+        add(new JLabel("Documentos:"));
+        add(scrollPane);
+        add(organizarButton);
+    }
+
+    public static String[] organizarAlfabéticamente(String[] documentos) {
+        Arrays.sort(documentos);
+        return documentos;
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new OrganizaciónDoc().setVisible(true);
+            }
+        });
     }
 }
