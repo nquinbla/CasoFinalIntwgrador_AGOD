@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="conteo genes GUI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AnálisisGenómico/CálculoComGenGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="calculo potencias y maximos GUI">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HerramientasAnálisisNúm/SumatoriaYListadoNumGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +43,15 @@
     "Application.ConteoGenesGUI.executor": "Run",
     "Application.CálculoComGenGUI.executor": "Run",
     "Application.CálculoCombGenGUI.executor": "Run",
+    "Application.CálculoPotenciasYMaximosGUI.executor": "Run",
+    "Application.CálculoPotenciasYMáxGUI.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main_AG.executor": "Run",
     "Application.Main_GIC.executor": "Run",
     "Application.Main_HAM.executor": "Run",
     "Application.Main_OP.executor": "Run",
     "Application.OrganizaciónDoc.executor": "Run",
+    "Application.SumatoriaYListadoNumGUI.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -90,23 +92,7 @@
       <workItem from="1712679685446" duration="1274000" />
       <workItem from="1712916279023" duration="6278000" />
       <workItem from="1713009394721" duration="9193000" />
-      <workItem from="1713172034610" duration="3497000" />
-    </task>
-    <task id="LOCAL-00005" summary="conteo genes comentarios y mejora">
-      <option name="closed" value="true" />
-      <created>1712919341882</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1712919341882</updated>
-    </task>
-    <task id="LOCAL-00006" summary="CálculoCombGen 1">
-      <option name="closed" value="true" />
-      <created>1712919482498</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1712919482498</updated>
+      <workItem from="1713172034610" duration="3823000" />
     </task>
     <task id="LOCAL-00007" summary="CálculoCombGen comentarios">
       <option name="closed" value="true" />
@@ -484,15 +470,29 @@
       <option name="project" value="LOCAL" />
       <updated>1713176437207</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="calculo combinacion de genes GUI">
+      <option name="closed" value="true" />
+      <created>1713176782269</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1713176782269</updated>
+    </task>
+    <task id="LOCAL-00055" summary="calculo potencias y maximos GUI">
+      <option name="closed" value="true" />
+      <created>1713176959396</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1713176959396</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajustes gestión de fechasp" />
-    <MESSAGE value="ajustes gestión de fechasp comentarios" />
     <MESSAGE value="main módulo 3" />
     <MESSAGE value="meo¡jora algoritmos" />
     <MESSAGE value="main módulo 4" />
@@ -516,7 +516,9 @@
     <MESSAGE value="BúsquedaTextos arreglillos &#10;GUI" />
     <MESSAGE value="organización doc GUI" />
     <MESSAGE value="conteo genes GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="conteo genes GUI" />
+    <MESSAGE value="calculo combinacion de genes GUI" />
+    <MESSAGE value="calculo potencias y maximos GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculo potencias y maximos GUI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
