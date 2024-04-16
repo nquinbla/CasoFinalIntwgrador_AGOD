@@ -36,6 +36,11 @@ public class Main extends JFrame {
         gbc.insets = new Insets(5, 5, 5, 5); // Margen entre componentes
         gbc.anchor = GridBagConstraints.CENTER; // Centrar los componentes en su celda
 
+        // Crear un panel para los títulos y subtítulos
+        JPanel titlePanel = new JPanel();
+        titlePanel.setLayout(new BoxLayout(titlePanel, BoxLayout.Y_AXIS));
+        titlePanel.setOpaque(false); // Hacer que el panel sea transparente
+
         // Título Principal "A.G.O.D."
         JLabel tituloPrincipal = new JLabel("<html><font color='grey'>A.</font><font color='grey'>G.</font><font color='blue'>O.</font><font color='grey'>D.</font></html>");
         tituloPrincipal.setFont(new Font("Ardela Edge ARDELA EDGE X03 Extra Bold", Font.BOLD, 142));
@@ -58,6 +63,12 @@ public class Main extends JFrame {
         subtitulo2.setForeground(Color.BLUE);
         gbc.gridy = 3;
         panel.add(subtitulo2, gbc);
+
+        // Agregar el panel de títulos al panel principal
+        gbc.gridx = 1; // Posición horizontal para el panel de títulos
+        gbc.gridy = 0; // Posición vertical para el panel de títulos
+        gbc.gridheight = 3; // Hacer que el panel de títulos ocupe 3 celdas en la dirección vertical
+        panel.add(titlePanel, gbc);
 
         // Agregar un panel vacío a cada lado de los botones para empujarlos hacia el centro
         JPanel emptyPanel1 = new JPanel();

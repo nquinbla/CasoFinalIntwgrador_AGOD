@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="toques finales 3 (botones)">
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="toques finales 4 (botones)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,15 +115,7 @@
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
       <workItem from="1713206448117" duration="9971000" />
-      <workItem from="1713248288956" duration="2431000" />
-    </task>
-    <task id="LOCAL-00057" summary="MejoraAlgoritmosGUI.java">
-      <option name="closed" value="true" />
-      <created>1713177372202</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1713177372202</updated>
+      <workItem from="1713248288956" duration="3082000" />
     </task>
     <task id="LOCAL-00058" summary="arreglos main">
       <option name="closed" value="true" />
@@ -508,14 +501,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713250489324</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="toques finales 4 (botones)">
+      <option name="closed" value="true" />
+      <created>1713250944610</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1713250944610</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="he intentado hacer un fondo con adn pero no puuedo (sale deforme)" />
     <MESSAGE value="he aprendido a poner imagenes y a cuando cierres una ventana se cierre solo la venatna" />
     <MESSAGE value="he aprendido a como no poner imagenes" />
     <MESSAGE value="he aprendido a como no poner imagenes pt2" />
@@ -540,7 +540,8 @@
     <MESSAGE value="toques finales 1" />
     <MESSAGE value="toques finales 2 (botones)" />
     <MESSAGE value="toques finales 3 (botones)" />
-    <option name="LAST_COMMIT_MESSAGE" value="toques finales 3 (botones)" />
+    <MESSAGE value="toques finales 4 (botones)" />
+    <option name="LAST_COMMIT_MESSAGE" value="toques finales 4 (botones)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
