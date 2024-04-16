@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="si">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decoración/DecoPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decoración/DecoPanel.java" afterDir="false" />
-    </list>
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="no se que hago pt 392038" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,15 +112,7 @@
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
       <workItem from="1713206448117" duration="9971000" />
-      <workItem from="1713248288956" duration="6304000" />
-    </task>
-    <task id="LOCAL-00062" summary="cosas que borre sin darme cuenta 1">
-      <option name="closed" value="true" />
-      <created>1713178257277</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1713178257277</updated>
+      <workItem from="1713248288956" duration="6448000" />
     </task>
     <task id="LOCAL-00063" summary="cosas que borre sin darme cuenta 2">
       <option name="closed" value="true" />
@@ -509,14 +498,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713252451274</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="no se que hago pt 392038">
+      <option name="closed" value="true" />
+      <created>1713254636001</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1713254636001</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="he aprendido a como no poner imagenes pt2" />
     <MESSAGE value="deco 1" />
     <MESSAGE value="deco 2" />
     <MESSAGE value="arreglos conteo de genes" />
@@ -541,7 +537,8 @@
     <MESSAGE value="toques finales 4 (botones)" />
     <MESSAGE value="toques finales 5 (no se ponen en el centro)" />
     <MESSAGE value="si" />
-    <option name="LAST_COMMIT_MESSAGE" value="si" />
+    <MESSAGE value="no se que hago pt 392038" />
+    <option name="LAST_COMMIT_MESSAGE" value="no se que hago pt 392038" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
