@@ -31,9 +31,10 @@ public class Main extends JFrame {
 
         // Configurar restricciones para el diseño de cuadrícula
         GridBagConstraints gbc = new GridBagConstraints();
-        gbc.gridx = 0;
-        gbc.gridy = GridBagConstraints.RELATIVE;
+        gbc.fill = GridBagConstraints.HORIZONTAL; // Hacer que los componentes se expandan horizontalmente
+        gbc.weightx = 1.0; // Dar a todos los componentes el mismo espacio horizontal
         gbc.insets = new Insets(5, 5, 5, 5); // Margen entre componentes
+        gbc.anchor = GridBagConstraints.CENTER; // Centrar los componentes en su celda
 
         // Título Principal "A.G.O.D."
         JLabel tituloPrincipal = new JLabel("<html><font color='grey'>A.</font><font color='grey'>G.</font><font color='blue'>O.</font><font color='grey'>D.</font></html>");
@@ -58,15 +59,26 @@ public class Main extends JFrame {
         gbc.gridy = 3;
         panel.add(subtitulo2, gbc);
 
+        // Tamaño preferido para los botones
+        Dimension buttonSize = new Dimension(200, 50); // Puedes ajustar estos valores a tu gusto
+
         // Botones del panel para interactuar con las clases
         JButton button1 = new JButton("Gestión de Fechas 📆");
+        button1.setPreferredSize(buttonSize);
         JButton button2 = new JButton("Búsqueda Eficiente en Textos \uD83D\uDD0D");
+        button2.setPreferredSize(buttonSize);
         JButton button3 = new JButton("Organización de Documentos \uD83D\uDCC4\u200B");
+        button3.setPreferredSize(buttonSize);
         JButton button4 = new JButton("Conteo de Genes 🔬");
+        button4.setPreferredSize(buttonSize);
         JButton button5 = new JButton("Cálculo de Combinaciones Genéticas 🔬🔀");
+        button5.setPreferredSize(buttonSize);
         JButton button6 = new JButton("Mejora de Algoritmos \u200B⬆\uFE0F\u200B \uD83D\uDCBB\u200B");
+        button6.setPreferredSize(buttonSize);
         JButton button7 = new JButton("Cálculo de Potencias y Máximos \uD83D\uDCAA\uD83C\uDFFC\u200B");
+        button7.setPreferredSize(buttonSize);
         JButton button8 = new JButton("Sumatoria y Listado de Números \uD83D\uDCC3\u200B➕");
+        button8.setPreferredSize(buttonSize);
 
         // Agregar botones al panel con las restricciones adecuadas
         gbc.gridx = 0; // Posición horizontal para los primeros 4 botones
