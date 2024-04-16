@@ -59,10 +59,23 @@ public class Main extends JFrame {
         gbc.gridy = 3;
         panel.add(subtitulo2, gbc);
 
+        // Agregar un panel vacío a cada lado de los botones para empujarlos hacia el centro
+        JPanel emptyPanel1 = new JPanel();
+        emptyPanel1.setOpaque(false); // Hacer que el panel sea transparente
+        gbc.gridx = 0; // Posición horizontal para el primer panel vacío
+        gbc.gridy = 4; // Posición vertical para el primer panel vacío
+        gbc.gridheight = 4; // Hacer que el panel vacío ocupe 4 celdas en la dirección vertical
+        panel.add(emptyPanel1, gbc);
+
+        JPanel emptyPanel2 = new JPanel();
+        emptyPanel2.setOpaque(false); // Hacer que el panel sea transparente
+        gbc.gridx = 2; // Posición horizontal para el segundo panel vacío
+        panel.add(emptyPanel2, gbc);
+
         // Tamaño para los botones
         Dimension buttonSize = new Dimension(290, 35); // Puedes ajustar estos valores a tu gusto
 
-// Botones del panel para interactuar con las clases
+        // Botones del panel para interactuar con las clases
         JButton button1 = new JButton("Gestión de Fechas 📆");
         button1.setPreferredSize(buttonSize);
         button1.setMinimumSize(buttonSize);
@@ -104,7 +117,8 @@ public class Main extends JFrame {
         button8.setMaximumSize(buttonSize);
 
         // Agregar botones al panel con las restricciones adecuadas
-        gbc.gridx = 0; // Posición horizontal para los primeros 4 botones
+        gbc.gridx = (int) -0.5; // Posición horizontal para los primeros 4 botones
+        gbc.gridheight = 1; // Hacer que los botones ocupen 1 celda en la dirección vertical
         gbc.gridy = 4; // Posición vertical para el botón 1
         panel.add(button1, gbc);
         gbc.gridy = 5; // Posición vertical para el botón 2
@@ -115,6 +129,7 @@ public class Main extends JFrame {
         panel.add(button4, gbc);
 
         gbc.gridx = 1; // Posición horizontal para los últimos 4 botones
+        gbc.gridheight = 1; // Hacer que los botones ocupen 1 celda en la dirección vertical
         gbc.gridy = 4; // Posición vertical para el botón 5
         panel.add(button5, gbc);
         gbc.gridy = 5; // Posición vertical para el botón 6
