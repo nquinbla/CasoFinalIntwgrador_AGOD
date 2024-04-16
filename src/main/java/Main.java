@@ -60,7 +60,7 @@ public class Main extends JFrame {
         panel.add(subtitulo2, gbc);
 
         // Tamaño preferido para los botones
-        Dimension buttonSize = new Dimension(200, 50); // Puedes ajustar estos valores a tu gusto
+        Dimension buttonSize = new Dimension(120, 35); // Puedes ajustar estos valores a tu gusto
 
         // Botones del panel para interactuar con las clases
         JButton button1 = new JButton("Gestión de Fechas 📆");
