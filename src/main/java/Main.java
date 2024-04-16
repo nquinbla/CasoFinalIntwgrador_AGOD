@@ -46,12 +46,14 @@ public class Main extends JFrame {
         // Subtítulos "Análisis Genómico" y "Organización de Datos"
         JLabel subtitulo1 = new JLabel("Análisis Genómico & Organización de Datos");
         subtitulo1.setFont(new Font("Touch Me Sans Petite Semi Bold", Font.ITALIC, 24));
+        gbc.anchor = GridBagConstraints.CENTER;
         subtitulo1.setForeground(Color.BLACK);
         gbc.gridy = 2;
         panel.add(subtitulo1, gbc);
 
         JLabel subtitulo2 = new JLabel("Universidad Alfonso X el Sabio (UAX)");
         subtitulo2.setFont(new Font("Touch Me Sans Petite Semi Bold", Font.BOLD, 24));
+        gbc.anchor = GridBagConstraints.CENTER;
         subtitulo2.setForeground(Color.BLUE);
         gbc.gridy = 3;
         panel.add(subtitulo2, gbc);
