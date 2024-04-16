@@ -1,5 +1,7 @@
 package GestiónInfoCientífica;
 
+import com.sun.tools.javac.Main;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -28,6 +30,9 @@ public class GestiónFechasGUI extends JFrame {
         añoField = new JTextField(4);
         textArea = new JTextArea(5, 20);
         JScrollPane scrollPane = new JScrollPane(textArea);
+
+        // Crear el panel con BorderLayout
+        JPanel panel = new JPanel(new BorderLayout());
 
         JButton agregarButton = new JButton("Agregar");
         agregarButton.addActionListener(new ActionListener() {
