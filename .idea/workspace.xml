@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="ojito">
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/GestiónFechasGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestiónInfoCientífica/GestiónFechasGUI.java" afterDir="false" />
-    </list>
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="fin fin fin porfin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,23 +114,7 @@
       <workItem from="1713206448117" duration="9971000" />
       <workItem from="1713248288956" duration="6448000" />
       <workItem from="1713258218835" duration="51000" />
-      <workItem from="1713296317026" duration="1386000" />
-    </task>
-    <task id="LOCAL-00065" summary="main arreglillos">
-      <option name="closed" value="true" />
-      <created>1713178975090</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1713178975090</updated>
-    </task>
-    <task id="LOCAL-00066" summary="main arreglillos 3">
-      <option name="closed" value="true" />
-      <created>1713179266526</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1713179266526</updated>
+      <workItem from="1713296317026" duration="1745000" />
     </task>
     <task id="LOCAL-00067" summary="main arreglillos 3/4">
       <option name="closed" value="true" />
@@ -510,15 +492,29 @@
       <option name="project" value="LOCAL" />
       <updated>1713297450954</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="ojito 2">
+      <option name="closed" value="true" />
+      <created>1713297980657</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1713297980657</updated>
+    </task>
+    <task id="LOCAL-00115" summary="fin fin fin porfin">
+      <option name="closed" value="true" />
+      <created>1713298090968</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1713298090968</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="arreglos conteo de genes" />
-    <MESSAGE value="arreglos conteo de genes GUI" />
     <MESSAGE value="arreglos conteo de genes GUI 2" />
     <MESSAGE value="arreglos búsqueda de textos" />
     <MESSAGE value="arreglos búsqueda de textos GUI 2" />
@@ -542,7 +538,9 @@
     <MESSAGE value="no se que hago pt 392038" />
     <MESSAGE value="holaa" />
     <MESSAGE value="ojito" />
-    <option name="LAST_COMMIT_MESSAGE" value="ojito" />
+    <MESSAGE value="ojito 2" />
+    <MESSAGE value="fin fin fin porfin" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin fin fin porfin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
