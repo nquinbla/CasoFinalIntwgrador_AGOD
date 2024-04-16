@@ -3,7 +3,10 @@ Caso Final Integrador: Sistema Interactivo de Análisis Genómico y Organizació
 LINK: (https://github.com/nquinbla/CasoFinalIntwgrador_AGOD.git)
 
 ## DESCRIPCIÓN
-El proyecto consistirá en el desarrollo de un sistema de software que integre funciones recursivas y algoritmos de ordenación para el análisis de secuencias de ADN, la manipulación de datos y la organización de información científica. Los estudiantes aplicarán conceptos de recursividad, búsqueda y ordenamiento para crear una herramienta útil en el campo de la biología computacional.
+El proyecto consiste en el desarrollo de un sistema de software que integra funciones recursivas y algoritmos de ordenación para el análisis de secuencias de ADN, la manipulación de datos y la organización de información científica. Se aplican tanto conceptos de recursividad, búsqueda y ordenamiento para crear una herramienta útil en el campo de la biología computacional.
+
+## FUNCIONAMIENTO
+El proyecto consiste en el desarrollo de un sistema de software, el cuál integra funciones de recursividad y algoritmos de ordenación para el análisis de secuencias de ADN, la manipulación de datos y la organización de información científica. Al compilar, la venta principal se abre mostrando los diversos botones principales explicados en cada módulo en el siguiente apartado, además de un título y dos subtítulos con un fondo azul semi-transparente acompañado de decoraciones azules y cadenas de adn junto al logo de la universidad. Cada botón contiene una función diferente ,de entre los ocho botones, e implementan conceptos de recursividad, búsqueda y ordenamiento creando así una herramienta útil en el campo de biología computacional.
 
 ## MÓDULO
  ### 1. Análisis Genómico (Ejercicios 7 y 8)
@@ -24,7 +27,8 @@ El proyecto consistirá en el desarrollo de un sistema de software que integre f
  ### 4. Optimización de Procesos (Ejercicio 13)
   * Mejora de Algoritmos: Tomar el algoritmo de quicksort y optimizarlo según las indicaciones dadas, demostrando la capacidad de mejorar y adaptar algoritmos existentes para una mayor eficiencia y eficacia. -> [MejoraAlgoritmos] & [MejoraAlgoritmosGUI]
 
-    
+### 5. Decoración
+  * Decoración del panel: una clase la cuál hemos decorado  con dos imagenes metidas en src/main/resources, el fondo con lineas azules y rellenos del mismo color y un fondo azul claro -> [DecoPanel]
 
 ## ENTREGABLES
 * Software de Análisis Genómico y Organización de Datos: Un programa interactivo que integre todas las funcionalidades mencionadas con una interfaz de usuario que facilite su uso por parte de los investigadores.
