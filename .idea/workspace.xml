@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="toques finales 4 (botones)">
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="si">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Decoración/DecoPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decoración/DecoPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,39 +115,7 @@
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
       <workItem from="1713206448117" duration="9971000" />
-      <workItem from="1713248288956" duration="3082000" />
-    </task>
-    <task id="LOCAL-00058" summary="arreglos main">
-      <option name="closed" value="true" />
-      <created>1713177427514</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1713177427514</updated>
-    </task>
-    <task id="LOCAL-00059" summary="arreglos main x3">
-      <option name="closed" value="true" />
-      <created>1713177922202</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1713177922202</updated>
-    </task>
-    <task id="LOCAL-00060" summary="fuera prueba1.java">
-      <option name="closed" value="true" />
-      <created>1713177972400</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1713177972400</updated>
-    </task>
-    <task id="LOCAL-00061" summary="refactorización">
-      <option name="closed" value="true" />
-      <created>1713178022378</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1713178022378</updated>
+      <workItem from="1713248288956" duration="6304000" />
     </task>
     <task id="LOCAL-00062" summary="cosas que borre sin darme cuenta 1">
       <option name="closed" value="true" />
@@ -509,15 +477,45 @@
       <option name="project" value="LOCAL" />
       <updated>1713250944610</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="toques finales 5 (no se ponen en el centro)">
+      <option name="closed" value="true" />
+      <created>1713251394068</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1713251394068</updated>
+    </task>
+    <task id="LOCAL-00108" summary="toques finales 5 (no se ponen en el centro)">
+      <option name="closed" value="true" />
+      <created>1713251596100</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1713251596100</updated>
+    </task>
+    <task id="LOCAL-00109" summary="toques finales 5 (no se ponen en el centro)">
+      <option name="closed" value="true" />
+      <created>1713251612110</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1713251612110</updated>
+    </task>
+    <task id="LOCAL-00110" summary="si">
+      <option name="closed" value="true" />
+      <created>1713252451274</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1713252451274</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="he aprendido a poner imagenes y a cuando cierres una ventana se cierre solo la venatna" />
-    <MESSAGE value="he aprendido a como no poner imagenes" />
     <MESSAGE value="he aprendido a como no poner imagenes pt2" />
     <MESSAGE value="deco 1" />
     <MESSAGE value="deco 2" />
@@ -541,7 +539,9 @@
     <MESSAGE value="toques finales 2 (botones)" />
     <MESSAGE value="toques finales 3 (botones)" />
     <MESSAGE value="toques finales 4 (botones)" />
-    <option name="LAST_COMMIT_MESSAGE" value="toques finales 4 (botones)" />
+    <MESSAGE value="toques finales 5 (no se ponen en el centro)" />
+    <MESSAGE value="si" />
+    <option name="LAST_COMMIT_MESSAGE" value="si" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
