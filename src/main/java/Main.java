@@ -31,7 +31,7 @@ public class Main extends JFrame {
 
         // Configurar restricciones para el diseño de cuadrícula
         GridBagConstraints gbc = new GridBagConstraints();
-        gbc.fill = GridBagConstraints.HORIZONTAL; // Hacer que los componentes se expandan horizontalmente
+        gbc.fill = GridBagConstraints.NONE;
         gbc.weightx = 1.0; // Dar a todos los componentes el mismo espacio horizontal
         gbc.insets = new Insets(5, 5, 5, 5); // Margen entre componentes
         gbc.anchor = GridBagConstraints.CENTER; // Centrar los componentes en su celda
@@ -59,26 +59,49 @@ public class Main extends JFrame {
         gbc.gridy = 3;
         panel.add(subtitulo2, gbc);
 
-        // Tamaño preferido para los botones
-        Dimension buttonSize = new Dimension(120, 35); // Puedes ajustar estos valores a tu gusto
+        // Tamaño para los botones
+        Dimension buttonSize = new Dimension(290, 35); // Puedes ajustar estos valores a tu gusto
 
-        // Botones del panel para interactuar con las clases
+// Botones del panel para interactuar con las clases
         JButton button1 = new JButton("Gestión de Fechas 📆");
         button1.setPreferredSize(buttonSize);
+        button1.setMinimumSize(buttonSize);
+        button1.setMaximumSize(buttonSize);
+
         JButton button2 = new JButton("Búsqueda Eficiente en Textos \uD83D\uDD0D");
         button2.setPreferredSize(buttonSize);
+        button2.setMinimumSize(buttonSize);
+        button2.setMaximumSize(buttonSize);
+
         JButton button3 = new JButton("Organización de Documentos \uD83D\uDCC4\u200B");
         button3.setPreferredSize(buttonSize);
+        button3.setMinimumSize(buttonSize);
+        button3.setMaximumSize(buttonSize);
+
         JButton button4 = new JButton("Conteo de Genes 🔬");
         button4.setPreferredSize(buttonSize);
+        button4.setMinimumSize(buttonSize);
+        button4.setMaximumSize(buttonSize);
+
         JButton button5 = new JButton("Cálculo de Combinaciones Genéticas 🔬🔀");
         button5.setPreferredSize(buttonSize);
+        button5.setMinimumSize(buttonSize);
+        button5.setMaximumSize(buttonSize);
+
         JButton button6 = new JButton("Mejora de Algoritmos \u200B⬆\uFE0F\u200B \uD83D\uDCBB\u200B");
         button6.setPreferredSize(buttonSize);
+        button6.setMinimumSize(buttonSize);
+        button6.setMaximumSize(buttonSize);
+
         JButton button7 = new JButton("Cálculo de Potencias y Máximos \uD83D\uDCAA\uD83C\uDFFC\u200B");
         button7.setPreferredSize(buttonSize);
+        button7.setMinimumSize(buttonSize);
+        button7.setMaximumSize(buttonSize);
+
         JButton button8 = new JButton("Sumatoria y Listado de Números \uD83D\uDCC3\u200B➕");
         button8.setPreferredSize(buttonSize);
+        button8.setMinimumSize(buttonSize);
+        button8.setMaximumSize(buttonSize);
 
         // Agregar botones al panel con las restricciones adecuadas
         gbc.gridx = 0; // Posición horizontal para los primeros 4 botones
