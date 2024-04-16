@@ -68,5 +68,4 @@ public class DecoPanel extends JPanel {
         g2d.drawImage(imagen2, x2, y2, null);
 
     }
-
 }
