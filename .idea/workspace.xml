@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="se superpone todo ayuda">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d50646ac-b6cc-48e3-8eab-654ce23bf8bb" name="Changes" comment="solo falta ajustar un par de cosas y ya :)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,15 +111,7 @@
       <workItem from="1713009394721" duration="9193000" />
       <workItem from="1713172034610" duration="6640000" />
       <workItem from="1713182265796" duration="1229000" />
-      <workItem from="1713206448117" duration="9743000" />
-    </task>
-    <task id="LOCAL-00051" summary="BúsquedaTextos arreglillos &#10;GUI">
-      <option name="closed" value="true" />
-      <created>1713175720737</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1713175720737</updated>
+      <workItem from="1713206448117" duration="9971000" />
     </task>
     <task id="LOCAL-00052" summary="organización doc GUI">
       <option name="closed" value="true" />
@@ -507,14 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713216084263</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="solo falta ajustar un par de cosas y ya :)">
+      <option name="closed" value="true" />
+      <created>1713216425750</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1713216425750</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="calculo potencias y max y arrelos sumatoria y listado" />
     <MESSAGE value="arreglillos para que furulen bien las cosas 1" />
     <MESSAGE value="arreglillos para que furulen bien las cosas 2" />
     <MESSAGE value="arreglillos para que furulen bien las cosas 3" />
@@ -539,7 +536,8 @@
     <MESSAGE value="arreglos de ventanas secundarias" />
     <MESSAGE value="intentado colocar los botones bonitos" />
     <MESSAGE value="se superpone todo ayuda" />
-    <option name="LAST_COMMIT_MESSAGE" value="se superpone todo ayuda" />
+    <MESSAGE value="solo falta ajustar un par de cosas y ya :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="solo falta ajustar un par de cosas y ya :)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

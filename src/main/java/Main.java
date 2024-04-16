@@ -47,7 +47,7 @@ public class Main extends JFrame {
         JLabel subtitulo1 = new JLabel("Análisis Genómico & Organización de Datos");
         subtitulo1.setFont(new Font("Touch Me Sans Petite Semi Bold", Font.ITALIC, 24));
         subtitulo1.setForeground(Color.BLACK);
-        gbc.gridy = 3;
+        gbc.gridy = 2;
         panel.add(subtitulo1, gbc);
 
         JLabel subtitulo2 = new JLabel("Universidad Alfonso X el Sabio (UAX)");
@@ -67,7 +67,7 @@ public class Main extends JFrame {
         JButton button8 = new JButton("Sumatoria y Listado de Números \uD83D\uDCC3\u200B➕");
 
         // Agregar botones al panel con las restricciones adecuadas
-        gbc.gridx = 0; // Posición horizontal para  los primeros 4 botones
+        gbc.gridx = 0; // Posición horizontal para los primeros 4 botones
         gbc.gridy = 4; // Posición vertical para el botón 1
         panel.add(button1, gbc);
         gbc.gridy = 5; // Posición vertical para el botón 2
